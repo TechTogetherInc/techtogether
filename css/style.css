@@ -139,7 +139,7 @@ html, body {
     align-items: center;  /*Aligns vertically center */
     justify-content: center; /*Aligns horizontally center */
   }
-  
+
 .home-sponsorlogo{
     width:15vw;
     padding:5%;
@@ -170,7 +170,7 @@ html, body {
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
-    border: 5px dashed var(--light-nude);
+    border: 5px dashed var(--mild-salmon);
 }
 
 .footer{
