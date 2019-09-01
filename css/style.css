@@ -1,5 +1,6 @@
 :root {
     --salmon: #FF8978;
+    --mild-salmon: #FF9999;
     --teal: #4B94A0;
     --light-purple: #8F99FB;
     --red: #FF0000;
@@ -8,7 +9,7 @@
 html, body {
     margin:0;
     padding:0;
-    font-family: Helvetica;
+    font-family: "Helvetica-Neue";
 }
 
 .color-background {
@@ -41,6 +42,12 @@ html, body {
     padding-right: 18%;
 }
 
+.navbar-toggler{
+    background:rgba(0,0,0,0.1);
+    padding:20px;
+    border-radius:50%;
+
+}
 #menu {
   background-color:red;
   position: absolute;
@@ -58,5 +65,9 @@ html, body {
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
-    border:3px dashed red;
+    border: 5px dashed var(--mild-salmon);
+}
+
+.footer{
+    margin:10px;
 }
