@@ -42,12 +42,45 @@ html, body {
     padding-right: 18%;
 }
 
+.home-subheading{
+    color: var(--salmon) !important;
+    font-size:1rem;
+    font-weight:bold;
+}
+
+.home-title{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.home-subtitle{
+    font-size:1.3rem;
+    font-weight:bold;
+}
+
+
+.home-learnmore{
+    font-size:1.2rem;
+    color: var(--red);
+    font-weight:bold;
+}
 .navbar-toggler{
     background:rgba(0,0,0,0.1);
     padding:20px;
     border-radius:50%;
 
 }
+.home-sponsorlogo{
+    width:15vw;
+    padding:5%;
+    height:auto;
+}
+@media only screen and (max-width: 600px) {
+    .home-sponsorlogo {
+      width:50vw;
+      height:auto;
+    }
+  }
 
 #menu {
   background-color:red;
@@ -60,8 +93,8 @@ html, body {
 }
 
 .dashed-circle{
-    height: 130px;
-    width: 130px;
+    height: 200px ;
+    width: 200px ;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -74,8 +107,7 @@ html, body {
 }
 
 .circle-container {
-    height: 60vh;
-    width: 60vh;
+    height: 50vh;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
