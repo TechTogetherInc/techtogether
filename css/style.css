@@ -48,6 +48,7 @@ html, body {
     border-radius:50%;
 
 }
+
 #menu {
   background-color:red;
   position: absolute;
@@ -71,3 +72,12 @@ html, body {
 .footer{
     margin:10px;
 }
+
+.circle-container {
+    height: 60vh;
+    width: 60vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
