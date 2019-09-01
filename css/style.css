@@ -1,3 +1,6 @@
+---
+---
+
 :root {
     --salmon: #FF8978;
     --mild-salmon: #FF9999;
@@ -15,7 +18,6 @@ html, body {
 .color-background {
     /* background-color: var(--salmon); */
     width: 100%;
-    height: 100vh;
 }
 
 .logo-bg-img {
@@ -41,7 +43,29 @@ html, body {
     font-size: 23px;
     padding-right: 18%;
 }
+.home-heading {
+    color: white;
+    padding-top: 35vh;
+    padding-left:20%;
+    font-size: 65px;
+    font-weight: bold;
+}
 
+.home-subhead {
+    color: white;
+    padding-left:20%;
+    padding-top:10px;
+    font-size:25px;
+}
+@media only screen and (max-width: 768px) {
+    .home-heading{
+        font-size:3rem;
+        padding: 25vh 10% 0 10%;
+    }
+    .home-subhead{
+        padding: 10px 10% 0 10%;
+    }
+}
 .home-subheading{
     color: var(--salmon) !important;
     font-size:1rem;
@@ -49,33 +73,80 @@ html, body {
 }
 
 .home-title{
-    font-size:1.5rem;
+    font-size:2rem;
+    margin:10px 0 10px 0;
     font-weight:bold;
+    padding: 30px 0 30px 0;
 }
 
 .home-subtitle{
     font-size:1.3rem;
     font-weight:bold;
+    margin:10px 0 10px 0;
+
 }
 
-
+/* .navbar {
+    background-color: url('{{page.bg_color}}');
+} */
 .home-learnmore{
     font-size:1.2rem;
     color: var(--red);
     font-weight:bold;
 }
+
+.home-quote{
+    font-size: 25px;
+    font-weight:bold;
+    color:white;
+}
+
 .navbar-toggler{
     background:rgba(0,0,0,0.1);
     padding:20px;
     border-radius:50%;
 
 }
+/* .navbar-collapse {
+    height:90vh;
+    background: 
+    linear-gradient(
+        url('{{page.bg_color}}'),
+        url('{{page.bg_color}}')
+      ),
+      url("/imgs/photos/nav_jump.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+} */
+
+
+/* .navbar-collapse:after {
+    content:'';
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: url('{{page.bg_color}}');
+    opacity: 0.1;
+} */
+
+.align-items-center {
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center; /*Aligns horizontally center */
+  }
+  
 .home-sponsorlogo{
     width:15vw;
     padding:5%;
     height:auto;
+    vertical-align: middle;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .home-sponsorlogo {
       width:50vw;
       height:auto;
@@ -99,7 +170,7 @@ html, body {
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
-    border: 5px dashed var(--mild-salmon);
+    border: 5px dashed var(--light-nude);
 }
 
 .footer{
