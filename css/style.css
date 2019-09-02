@@ -203,6 +203,7 @@ html, body {
 
 .circle-container {
     padding: 7%;
+    vertical-align: middle;
 }
 
 .circle-image{
