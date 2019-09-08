@@ -122,3 +122,9 @@ html, body {
 {
     margin-left: 450px;
 }
+
+.peoplepic
+{
+    border-radius: 50%;
+    width: 150px;
+}
