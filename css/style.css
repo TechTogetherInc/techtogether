@@ -104,3 +104,21 @@ html, body {
 .stats{
     padding-right: 50px;
 }
+
+.organizerimg
+{
+    width:100%; 
+    height: auto; 
+    opacity: 0.3;
+}
+
+.team
+{
+    width:18%;
+    margin-bottom: 5%
+}
+
+.people
+{
+    margin-left: 450px;
+}
