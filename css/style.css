@@ -119,6 +119,21 @@ html, body {
     }
 }
 
+.chapters-sol {
+    background-image: 
+    /* linear-gradient(
+        rgba(143, 153, 251, 0.45), 
+        rgba(143, 153, 251, 0.45)
+      ), */
+    linear-gradient(
+        rgba(255, 255, 255, 0.5), 
+        rgba(255, 255, 255, 0.5)
+      ), 
+        url('../imgs/photos/chapters_sol.png');
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: -10%;
+}
 .navbar-toggler{
     background:rgba(0,0,0,0.1);
     padding:20px;
