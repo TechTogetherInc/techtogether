@@ -104,7 +104,7 @@ html, body {
 }
 
 .home-quote{
-    font-size: 25px;
+    font-size: 20px;
     font-weight:bold;
     color:white;
 }
@@ -178,6 +178,7 @@ html, body {
     padding:5%;
     height:auto;
     vertical-align: middle;
+    filter: grayscale(100%);
 }
 /* @media only screen and (max-width: 768px) {
     .home-sponsorlogo {
