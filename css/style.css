@@ -55,7 +55,7 @@ html, body {
     color: white;
     padding-top: 35vh;
     padding-left:20%;
-    font-size: 65px;
+    font-size: 4vw;
     font-weight: bold;
 }
 
@@ -63,9 +63,9 @@ html, body {
     color: white;
     padding-left:20%;
     padding-top:10px;
-    font-size:25px;
+    font-size:2vw;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .home-heading{
         font-size:3rem;
         padding: 25vh 10% 0 10%;
@@ -73,7 +73,7 @@ html, body {
     .home-subhead{
         padding: 10px 10% 0 10%;
     }
-}
+} */
 .home-subheading{
     color: var(--salmon) !important;
     font-size:1rem;
@@ -112,12 +112,12 @@ html, body {
 .more-circle{
     margin-top:-40px;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .more-circle{
         padding-top:20px;
         margin-top:0;
     }
-}
+} */
 
 .chapters-sol {
     background-image: 
@@ -180,12 +180,12 @@ html, body {
     vertical-align: middle;
     filter: grayscale(100%);
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .home-sponsorlogo {
       width:50vw;
       height:auto;
     }
-  }
+  } */
 
 #menu {
   background-color:red;
@@ -227,12 +227,12 @@ html, body {
     width: 30vw;
     height: auto;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .circle-image{
         width: 80vw;
         height:auto;
     }
-}
+} */
 .a {
     text-decoration: none;
 }
