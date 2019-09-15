@@ -128,3 +128,41 @@ html, body {
     border-radius: 50%;
     width: 150px;
 }
+section
+{
+    background-color: white;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+
+:hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:red ;
+  }
+  :hover::-moz-placeholder { /* Firefox 19+ */
+    color:red ;
+  }
+  :hover:-ms-input-placeholder { /* IE 10+ */
+    color:red;
+  }
+  :hover:-moz-placeholder { /* Firefox 18- */
+    color:red ;
+  }
+
+  #mce-EMAIL:hover, #mce-COMPANY:hover, #mce-NAME:hover, #mce-JOBTITLE.hover
+  {
+      border-bottom-color: #FF0000;
+  }
