@@ -63,9 +63,9 @@ html, body {
     color: white;
     padding-left:20%;
     padding-top:10px;
-    font-size:25px;
+    font-size:2vw;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .home-heading{
         font-size:3rem;
         padding: 25vh 10% 0 10%;
@@ -73,7 +73,7 @@ html, body {
     .home-subhead{
         padding: 10px 10% 0 10%;
     }
-}
+} */
 .home-subheading{
     color: var(--salmon) !important;
     font-size:1rem;
@@ -104,7 +104,7 @@ html, body {
 }
 
 .home-quote{
-    font-size: 25px;
+    font-size: 20px;
     font-weight:bold;
     color:white;
 }
@@ -112,12 +112,12 @@ html, body {
 .more-circle{
     margin-top:-40px;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .more-circle{
         padding-top:20px;
         margin-top:0;
     }
-}
+} */
 
 .chapters-sol {
     background-image: 
@@ -178,13 +178,14 @@ html, body {
     padding:5%;
     height:auto;
     vertical-align: middle;
+    filter: grayscale(100%);
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .home-sponsorlogo {
       width:50vw;
       height:auto;
     }
-  }
+  } */
 
 #menu {
   background-color:red;
@@ -226,21 +227,14 @@ html, body {
     width: 30vw;
     height: auto;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .circle-image{
         width: 80vw;
         height:auto;
     }
-}
+} */
 .a {
     text-decoration: none;
-}
-
-.study-heading {
-    font-size: 38px;
-    margin-top: 15%;
-    margin-left: 15%;
-    font-weight: bolder;
 }
 
 .study-paragraph {
