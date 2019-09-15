@@ -236,3 +236,83 @@ html, body {
     text-decoration: none;
 }
 
+.study-heading {
+    font-size: 38px;
+    margin-top: 15%;
+    margin-left: 15%;
+    font-weight: bolder;
+}
+
+.study-paragraph {
+    padding-right: 12%;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 100px;
+}
+
+.stats{
+    padding-right: 50px;
+}
+
+.organizerimg
+{
+    width:100%; 
+    height: auto; 
+    opacity: 0.3;
+}
+
+.team
+{
+    width:18%;
+    margin-bottom: 5%
+}
+
+.people
+{
+    margin-left: 450px;
+}
+
+.peoplepic
+{
+    border-radius: 50%;
+    width: 150px;
+}
+section
+{
+    background-color: white;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+
+:hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:red ;
+  }
+  :hover::-moz-placeholder { /* Firefox 19+ */
+    color:red ;
+  }
+  :hover:-ms-input-placeholder { /* IE 10+ */
+    color:red;
+  }
+  :hover:-moz-placeholder { /* Firefox 18- */
+    color:red ;
+  }
+
+  #mce-EMAIL:hover, #mce-COMPANY:hover, #mce-NAME:hover, #mce-JOBTITLE.hover
+  {
+      border-bottom-color: #FF0000;
+  }
+
