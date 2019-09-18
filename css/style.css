@@ -305,7 +305,7 @@ section
     color:red ;
   }
 
-  #mce-EMAIL:hover, #mce-COMPANY:hover, #mce-NAME:hover, #mce-JOBTITLE.hover
+  #mce-EMAIL:hover, #mce-COMPANY:hover, #mce-NAME:hover, #mce-JOBTITLE:hover
   {
       border-bottom-color: #FF0000;
   }
