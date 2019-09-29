@@ -1,0 +1,404 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html a,
+body a {
+  text-decoration: none;
+  color: #000;
+}
+
+html a:hover,
+body a:hover {
+  color: #000;
+}
+
+html h1,
+body h1 {
+  font-size: 2em;
+}
+
+html h2,
+body h2 {
+  font-size: 1.5em;
+}
+
+html h3,
+body h3 {
+  font-size: 1.17em;
+}
+
+html h4,
+body h4 {
+  font-size: 1.12em;
+}
+
+html h5,
+body h5 {
+  font-size: .83em;
+}
+
+html h6,
+body h6 {
+  font-size: .75em;
+}
+
+/***************/
+.circle-container img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#Color_Fill_1 {
+  fill: #52D9F6;
+  fill-rule: evenodd;
+  -webkit-animation-name: color-change;
+          animation-name: color-change;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    fill: #52D9F6;
+  }
+  25% {
+    fill: #FD7361;
+  }
+  50% {
+    fill: #808cFB;
+  }
+  75% {
+    fill: #E73F33;
+  }
+  100% {
+    fill: #52D9F6;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    fill: #52D9F6;
+  }
+  25% {
+    fill: #FD7361;
+  }
+  50% {
+    fill: #808cFB;
+  }
+  75% {
+    fill: #E73F33;
+  }
+  100% {
+    fill: #52D9F6;
+  }
+}
+
+.dashed-circle {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 5px #FF9999 dashed;
+}
+
+.home-header {
+  width: 100%;
+  min-height: 100%;
+  background-color: #4B94A0;
+  padding: 6em 0 1em 0;
+}
+
+.home-header .heading {
+  color: #FFF;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.home-header .subhead {
+  color: white;
+  font-size: 2em;
+}
+
+.home-header .background-img {
+  position: absolute;
+  width: auto;
+  height: 100vh;
+  margin: auto;
+  opacity: 0.75;
+  top: 0;
+  overflow: hidden;
+}
+
+.home-header .social-media-row {
+  margin: 3em 0;
+}
+
+.home-header .social-media-row div img {
+  width: 3em;
+}
+
+.learn-container {
+  padding: 7% 0;
+  background-color: #FFEBEB;
+}
+
+.learn-container .home-learnMore {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+.learn-container .home-learnMore:hover {
+  text-decoration: underline;
+  color: #FF0000;
+}
+
+.learn-container h1 {
+  margin: .5em 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.learn-container p {
+  margin: .5em 0;
+}
+
+.learn-container .dashed-circle {
+  color: #000;
+}
+
+.learn-container .dashed-circle:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.learn-container .home-subtitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+  width: 100%;
+}
+
+.learn-container .subhead {
+  margin: 0;
+  color: #FF8978;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.sponsor-container {
+  margin: 7% 0;
+}
+
+.sponsor-container h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 2em 0;
+}
+
+.sponsor-container .home-sponsorlogo {
+  width: 60%;
+  padding: 5%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.quote-container {
+  background-color: #4B94A0;
+  width: 100%;
+  padding: 10em 0;
+}
+
+.quote-container p {
+  font-size: 1.25em;
+  color: #FFF;
+}
+
+.quote-container .quote {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #FFF;
+  margin: 0 0 3em 0;
+}
+
+.quote-container .image-container {
+  position: relative;
+  left: -16.6%;
+}
+
+.quote-container img {
+  margin: 40% 0 0 0;
+  width: 100%;
+  border-radius: 3em;
+  opacity: 0.15;
+}
+
+.hackathon-container {
+  margin: 10% 0;
+}
+
+.hackathon-container a {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.hackathon-container p {
+  margin: 1em 0;
+}
+
+.hackathon-container h1 {
+  margin: 0 0 3em 0;
+  font-size: 2.5em;
+}
+
+.hackathon-container h2 {
+  font-weight: bold;
+}
+
+.hackathon-container a {
+  display: inline-block;
+}
+
+.hackathon-container a:hover {
+  text-decoration: none;
+  color: #FF0000;
+}
+
+.hackathon-container .height-change-js-2 h2:nth-child(2) {
+  color: #FF0000;
+}
+
+.article-container {
+  background-color: #FFEBEB;
+  padding: 7% 0;
+}
+
+.article-container li {
+  margin: 2em 0;
+}
+
+.article-container .row {
+  margin: 5em 0;
+}
+
+.article-container h2 {
+  margin: 1em 0;
+  color: #FF9999;
+  font-weight: bold;
+}
+
+.article-container p {
+  display: inline;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.article-container a:hover {
+  text-decoration: underline;
+}
+
+.stats-container {
+  margin: 10% 0;
+}
+
+.stats-container h1 {
+  font-weight: bold;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.stats-container h3 {
+  font-weight: bold;
+}
+
+.stats-container .dashed-circle {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+}
+
+/*** newsletter Start ****/
+.newsletter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5em 0;
+  padding: 0;
+}
+
+.newsletter-container h3 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newsletter-container h4 {
+  color: #4f4f4f;
+  margin: 2em 0;
+}
+
+.newsletter-container .input-container {
+  margin: 3em 0;
+}
+
+.newsletter-container .subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#mc_embed_signup {
+  background: #FCF9F9;
+  clear: left;
+}
+
+#mc_embed_signup .subscribe input {
+  margin: 0;
+  padding: 0 5em;
+  font-weight: bold;
+  background-color: #c71414;
+  border-radius: .5em;
+}
+
+#mc_embed_signup .subscribe input:hover {
+  background-color: #c71414;
+}
+
+/*** newsletter End ***/
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .sponsor-container .home-sponsorlogo {
+    width: 100%;
+  }
+  .quote-container .quote {
+    font-size: 1.5em;
+  }
+  .quote-container .image-container {
+    left: -25%;
+  }
+}
