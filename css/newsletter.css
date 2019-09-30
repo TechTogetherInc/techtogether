@@ -1,0 +1,54 @@
+/*** newsletter Start ****/
+.newsletter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5em 0;
+  padding: 0;
+}
+
+.newsletter-container h3 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newsletter-container h4 {
+  color: #4f4f4f;
+  margin: 2em 0;
+}
+
+.newsletter-container .input-container {
+  margin: 3em 0;
+}
+
+.newsletter-container .subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#mc_embed_signup {
+  background: #FCF9F9;
+  clear: left;
+}
+
+#mc_embed_signup .subscribe input {
+  margin: 0;
+  padding: 0 5em;
+  font-weight: bold;
+  background-color: #c71414;
+  border-radius: .5em;
+}
+
+#mc_embed_signup .subscribe input:hover {
+  background-color: #c71414;
+}
+
+/*** newsletter End ***/

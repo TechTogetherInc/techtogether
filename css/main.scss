@@ -94,6 +94,7 @@ body {
 .dashed-circle {
     // height should equal width, check circle.js
     width: 100%;
+    max-width: 20em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -327,58 +328,7 @@ body {
     }
 }
 
-
-/*** newsletter Start ****/
-
-.newsletter-container {
-    display: flex;
-    justify-content: center;
-    margin: 5em 0;
-    padding: 0;
-
-    h3 {
-        font-size: 3em;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    h4 {
-        color: #4f4f4f;
-        margin: 2em 0;
-    }
-
-    .input-container {
-        margin: 3em 0;
-    }
-
-    .subscribe {
-        display: flex;
-        justify-content: center;
-    }
-
-}
-
-#mc_embed_signup {
-    background: #FCF9F9;
-    clear: left;
-
-    .subscribe {
-        input {
-            margin: 0;
-            padding: 0 5em;
-            font-weight: bold;
-            background-color: #c71414;
-            border-radius: .5em;
-
-            &:hover {
-                background-color: #c71414;
-            }
-        }
-    }
-}
-
-/*** newsletter End ***/
-
+/*** Media Queries ***/
 
 
 // bootstrap sm screen
