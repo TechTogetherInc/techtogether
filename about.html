@@ -3,12 +3,12 @@ layout: default
 title: About
 ---
 <section class="color-background" style="background-color:var(--salmon); height: 800px">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-6">
-                <h1 id="about-heading">Innovation is <br> optimized by <br> inclusion.</h1>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h1 id="about-heading">Innovation is optimized by inclusion.</h1>
             </div>
-            <div class="col-6">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <p id="about-subheading">TechTogether works to elevate the access, exposure,
                     and inclusion of gender-marginalized individuals in the interdiciplinary
                     fields of technology. <br><br>
@@ -21,42 +21,42 @@ title: About
         </div>
     </div>
 </section>
-<section>
-    <div class="container-fluid">
-        <div class="row">
+<section class="color-background" style="height: 500px">
+    <div class="container">
+<!--         <div class="row">
             <div class="col impact-heading">
                 <h3 class="title">Our Impact</h3>
             </div>
-        </div>
-        <div class="row stats" style="margin-left: 250px">
-            <div class="col-4">
+        </div> -->
+        <div class="row stats">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                 <div class="dashed-circle">
                     <h3 class="number">125</h3>
                     <p class="impact-name">workshops</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                 <div class="dashed-circle">
                     <h3 class="number">200</h3>
                     <p class="impact-name">projects</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                 <div class="dashed-circle">
                     <h3 class="number">3000+</h3>
                     <p class="impact-name">community members</p>
                 </div>
             </div>
         </div>
-        <div class="row stats" style = "padding-bottom: 8%; margin-left: 250px">
+        <div class="row stats">
             <div class="col-2"></div>
-            <div class="col-4">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                 <div class="dashed-circle">
                     <h3 class="number">50</h3>
                     <p class="impact-name">sponsors</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                 <div class="dashed-circle">
                     <h3 class="number">50%</h3>
                     <p class="impact-name">first-time hackers</p>
@@ -65,12 +65,13 @@ title: About
         </div>
     </div>
 </section>
+
 <section style="background-color:var(--light-nude); height:100%;">
     <div class="row" style="margin-left: 100px; padding-top: 2%">
         <div class="col-6">
-            <h1 class="study-heading">According to a 2019 research study, 
+            <h1 class="study-heading"><strong>According to a 2019 research study, 
                 "<span style="color:var(--red);">41 percent of women report having an experience in tech that makes then less likely
-                    to attend an event in the future</span>."
+                    to attend an event in the future</span>."</strong>
             </h1>
         </div>
     </div>
@@ -194,41 +195,66 @@ title: About
       <script src="js/swipe-content.js"></script> <!-- A Vanilla JavaScript plugin to detect touch interactions -->
       <script src="js/main.js"></script>
 </section>
-<section>
-        <div class="container-fluid">
-                <div class="row">
-                        <div class="col impact-heading">
-                            <h3 class="title" style="color:black">Meet the Team</h3>
-                        </div>
-                </div>
-                <div class="row people">
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg"class="peoplepic">
-                        </div>
-                      
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg"class="peoplepic">
-                        </div>
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg"class="peoplepic">
-                        </div>
-                </div>
-                <div class="row people">
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg"class="peoplepic">
-                        </div>
-                      
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg"class="peoplepic">
-                        </div>
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg" class="peoplepic">
-                        </div>
-                </div>
-            
-        </div>
 
+
+<!-- Team Members -->
+<section style ="padding-top: 50px; padding-bottom: 50px">
+    <div class= "container">
+        
+        <div class = "row">
+
+            <div class ="col-lg-12 text-left"">
+                <div class="col impact-heading">
+                    <h3 class="title" style="color:black">Meet the Team</h3>
+                </div>
+                <hr>
+            </div>
+                <div class="row headshot-row">
+
+                    <div class="col-lg-4 text-center" style="padding-bottom:30px">
+                        <img class="headshot peoplepic" width="220px" height=auto src="/imgs/Headshots/Team/fiona.jpg">
+                        <h5 class="text-center mt-4"><a class = "red-link" target = "_blank" href="https://www.linkedin.com/in/fiona-whittington-261b10103/">Fiona Whittington</a></h5>
+                        <h5 class="team-title">Executive Director</h5>
+                    </div>
+
+                    <div class="col-lg-4 text-center" style="padding-bottom:30px">
+                        <img class="headshot peoplepic" width="220px" height=auto src="/imgs/Headshots/Team/sreeya.jpg">
+                        <h5 class="text-red text-center mt-4"><a class = "red-link" target = "_blank" href="https://www.linkedin.com/in/sreeya-sai/">Sreeya Sai</a></h5>
+                        <h5 class="team-title">Chief Business Officer</h5>
+                    </div>
+
+                    <div class="col-lg-4 text-center" style="padding-bottom:30px">
+                        <img class="headshot peoplepic" width="220px" height=auto src="/imgs/Headshots/Team/lisa.jpg">
+                        <h5 class="text-red text-center mt-4"><a class = "red-link" target = "_blank" href="https://www.linkedin.com/in/lisaqvu/">Lisa Vu</a></h5>
+                        <h5 class="team-title">Chief Financial Officer</h5>
+                    </div>
+
+                    <div class="col-lg-4 text-center" style="padding-bottom:30px">
+                        <img class="headshot peoplepic" width="220px" height=auto src="/imgs/Headshots/Team/Belle.jpg">
+                        <h5 class="text-red text-center mt-4"><a class = "red-link" target = "_blank" href="https://www.linkedin.com/in/iverhulst/">Belle Verhulst</a></h5>
+                        <h5 class="team-title">Chief Marketing Officer</h5>
+                    </div>
+
+                    <div class="col-lg-4 text-center" style="padding-bottom:30px">
+                        <img class="headshot peoplepic" width="220px" height=auto src="/imgs/Headshots/Team/carol.jpg">
+                        <h5 class="text-red text-center mt-4"><a class = "red-link" target = "_blank" href="https://www.linkedin.com/in/carolliangce/">Carol Liang</a></h5>
+                        <h5 class="team-title">Director of Business Development</h5>
+                    </div>
+
+                    <div class="col-lg-4 text-center" style="padding-bottom:30px">
+                        <img class="headshot peoplepic" width="220px" height=auto src="/imgs/Headshots/Team/eva.png">
+                        <h5 class="text-red text-center mt-4"><a class = "red-link" target = "_blank" href="https://www.linkedin.com/in/eva-l-092578127/">Eva Lynch</a></h5>
+                        <h5 class="team-title">Marketing Intern </h5>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 </section>
+<!-- End Team Members -->
+
 <section>
         <div class="container-fluid">
                 <div class="row">
@@ -236,31 +262,50 @@ title: About
                             <h3 class="title" style="color:black">Board of Directors</h3>
                         </div>
                 </div>
-                <div class="row people">
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg" class="peoplepic">
-                        </div>
-                      
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg" class="peoplepic">
-                        </div>
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg" class="peoplepic">
-                        </div>
-                </div>
-                <div class="row people">
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg" class="peoplepic">
-                        </div>
-                      
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg" class="peoplepic">
-                        </div>
-                        <div class="column team">
-                            <img src="/imgs/placeholder-square.jpg" class="peoplepic">
-                        </div>
-                </div>
+
             
         </div>
 
 </section>
+
+<!-- End About Us-->
+
+<section style ="padding-top: 50px; padding-bottom: 50px">
+    <div class= "container">
+    
+            <!-- Begin Board of Directors -->
+
+            <div class="row headshot-row">
+
+                <div class="col-lg-3 text-center">
+                    <img class="headshot peoplepic" width="220px" height=auto src="imgs/headshots/directors/nicole_gilmore.jpg">
+                    <h5 class="text-center mt-4"><a class = "purple-link" target = "_blank" href="https://www.linkedin.com/in/nicolergilmore/">Nicole Gilmore</a></h5>
+                    <h5 class="team-title">COO, Savanna Technologies</h5>
+                </div>
+
+                <div class="col-lg-3 text-center">
+                    <img class="headshot peoplepic" width="220px" height=auto src="imgs/headshots/directors/chris_scranton.png">
+                    <h5 class="text-center mt-4"><a class = "purple-link" href="https://www.linkedin.com/in/christopherscranton/" target = "_blank">Christoper Scranton</a></h5>
+                    <h5 class="team-title">Director of Nonprofit &amp; Government Partnerships at Jobcase</h5>
+                </div>
+
+                <div class="col-lg-3 text-center">
+                    <img class="headshot peoplepic" width="220px" height=auto src="imgs/headshots/directors/helen_bui.jpeg">
+                    <h5 class="text-center mt-4"><a class = "purple-link"  target = "_blank" href="https://www.linkedin.com/in/helenhbui/">Helen Bui</a></h5>
+                    <h5 class="team-title">Business Builder, <br>Women in STEM Advocate</h5>
+                </div>
+
+                <div class="col-lg-3 text-center">
+                    <img class="headshot peoplepic" width="220px" height=auto src="imgs/headshots/directors/colleen_grant.jpg">
+                    <h5 class="text-center mt-4"><a class = "purple-link"  target = "_blank" href="https://www.linkedin.com/in/colleengrant13/">Colleen Grant</a></h5>
+                    <h5 class="team-title">Global Campus Recruiting Manager, Hubspot</h5>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- End Board of Directors -->
