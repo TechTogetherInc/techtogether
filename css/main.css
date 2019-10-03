@@ -149,6 +149,23 @@ body h6 {
   overflow: hidden;
 }
 
+.chapter-background {
+  background-image: url("/imgs/photos/NewYork_bg.png");
+  background-repeat: no-repeat;
+  background-color: white;
+/*  opacity: 0.5;
+  filter: alpha(opacity=50);*/
+}
+
+.header-background {
+  background-image: url("/imgs/logos/mark_techtogether_white.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: white;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
 .home-header .social-media-row {
   margin: 3em 0;
 }
@@ -215,9 +232,15 @@ body h6 {
   margin: 0 0 2em 0;
 }
 
-.sponsor-container .home-sponsorlogo {
+.sponsor-container {
   width: 60%;
   padding: 5%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.sponsorlogo {
+  padding:10px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
@@ -253,7 +276,7 @@ body h6 {
 }
 
 .hackathon-container {
-  margin: 10% 0;
+  padding: 10% 0;
 }
 
 .hackathon-container a {
@@ -266,7 +289,7 @@ body h6 {
 }
 
 .hackathon-container h1 {
-  margin: 0 0 3em 0;
+  margin: 0 0 0em 0;
   font-size: 2.5em;
 }
 
