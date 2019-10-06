@@ -1,7 +1,6 @@
 
 :root {
     --salmon: #FF8978;
-    --mild-salmon: #FF9999;
     --teal: #4B94A0;
     --light-purple: #8F99FB;
     --red: #FF0000;
@@ -10,7 +9,7 @@
 html, body {
     margin:0;
     padding:0;
-    font-family: "Helvetica-Neue", sans-serif;
+    font-family: Helvetica;
 }
 
 .color-background {
@@ -119,74 +118,6 @@ html, body {
     }
 } */
 
-.chapters-sol {
-    background-image: 
-    /* linear-gradient(
-        rgba(143, 153, 251, 0.45), 
-        rgba(143, 153, 251, 0.45)
-      ), */
-    linear-gradient(
-        rgba(255, 255, 255, 0.5), 
-        rgba(255, 255, 255, 0.5)
-      ), 
-        url('../imgs/photos/chapters_sol.png');
-    background-repeat: no-repeat;
-    background-position-x: 80%;
-    background-position-y: -10%;
-}
-.navbar-toggler{
-    background:rgba(0,0,0,0.1);
-    padding:20px;
-    border-radius:50%;
-
-}
-/* .navbar-collapse {
-    height:90vh;
-    background: 
-    linear-gradient(
-        url('{{page.bg_color}}'),
-        url('{{page.bg_color}}')
-      ),
-      url("/imgs/photos/nav_jump.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 0;
-} */
-
-
-/* .navbar-collapse:after {
-    content:'';
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    background-color: url('{{page.bg_color}}');
-    opacity: 0.1;
-} */
-
-.align-items-center {
-    display: flex; 
-    align-items: center;  /*Aligns vertically center */
-    justify-content: center; /*Aligns horizontally center */
-  }
-
-.home-sponsorlogo{
-    width:15vw;
-    padding:5%;
-    height:auto;
-    vertical-align: middle;
-    filter: grayscale(100%);
-}
-/* @media only screen and (max-width: 768px) {
-    .home-sponsorlogo {
-      width:50vw;
-      height:auto;
-    }
-  } */
-
 #menu {
   background-color:red;
   position: absolute;
@@ -210,103 +141,5 @@ html, body {
     vertical-align: middle;
     margin-left: 10%;
     border-radius: 50%;
-    border: 5px dashed var(--mild-salmon);
+    border:3px dashed red;
 }
-
-.footer{
-    margin:10px;
-}
-
-.circle-container {
-    padding: 7%;
-    vertical-align: middle;
-}
-
-.circle-image{
-    border-radius:50%;
-    width: 30vw;
-    height: auto;
-}
-/* @media only screen and (max-width: 768px) {
-    .circle-image{
-        width: 80vw;
-        height:auto;
-    }
-} */
-.a {
-    text-decoration: none;
-}
-
-.study-paragraph {
-    padding-right: 12%;
-    font-size: 20px;
-    margin-top: 5%;
-    margin-bottom: 100px;
-}
-
-.stats{
-    padding-right: 50px;
-}
-
-.organizerimg
-{
-    width:100%; 
-    height: auto; 
-    opacity: 0.3;
-}
-
-.team
-{
-    width:18%;
-    margin-bottom: 5%
-}
-
-.people
-{
-    margin-left: 450px;
-}
-
-.peoplepic
-{
-    border-radius: 50%;
-    width: 150px;
-}
-section
-{
-    background-color: white;
-}
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    font-weight: bold;
-    font-family: Helvetica;
-  }
-  ::-moz-placeholder { /* Firefox 19+ */
-    font-weight: bold;
-    font-family: Helvetica;
-  }
-  :-ms-input-placeholder { /* IE 10+ */
-    font-weight: bold;
-    font-family: Helvetica;
-  }
-  :-moz-placeholder { /* Firefox 18- */
-    font-weight: bold;
-    font-family: Helvetica;
-  }
-
-:hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color:red ;
-  }
-  :hover::-moz-placeholder { /* Firefox 19+ */
-    color:red ;
-  }
-  :hover:-ms-input-placeholder { /* IE 10+ */
-    color:red;
-  }
-  :hover:-moz-placeholder { /* Firefox 18- */
-    color:red ;
-  }
-
-  #mce-EMAIL:hover, #mce-COMPANY:hover, #mce-NAME:hover, #mce-JOBTITLE:hover
-  {
-      border-bottom-color: #FF0000;
-  }
-
