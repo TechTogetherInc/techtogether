@@ -86,6 +86,7 @@ html, body {
     padding: 30px 0 30px 0;
 }
 
+<<<<<<< HEAD
 .home-subtitle{
     font-size:1.3rem;
     font-weight:bold;
@@ -118,6 +119,8 @@ html, body {
     }
 } */
 
+=======
+>>>>>>> parent of b5828e0... footer
 #menu {
   background-color:red;
   position: absolute;
@@ -142,4 +145,8 @@ html, body {
     margin-left: 10%;
     border-radius: 50%;
     border:3px dashed red;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> parent of b5828e0... footer
