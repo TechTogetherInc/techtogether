@@ -200,11 +200,12 @@ section {
 }
 
 .fade-img {
-    opacity: .3;
-    margin-top: 15%;
-    width: 110%;
-    right: 20%;
-    left: 0;
+    opacity: .35;
+    margin-right: 10%;
+    width: 100%;
     position: relative;
+    z-index: 10;
+    top: 5%;
+    right: 40%;
 }
 
