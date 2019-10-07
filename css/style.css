@@ -1,5 +1,6 @@
 :root {
     --salmon: #FF8978;
+    --mild-salmon: #FF9999;
     --teal: #4B94A0;
     --light-purple: #8F99FB;
     --red: #FF0000;
@@ -13,7 +14,24 @@ html, body {
 
 .color-background {
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
+    height: auto;
+}
+
+.image-background {
+    width: 100%;
+    height: 100vh;
+    background: url(../imgs/photos/nav_jump.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(143,153,251, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100vh;
 }
 
@@ -36,11 +54,26 @@ html, body {
     padding-bottom: 2%;
 }
 
+#home-heading {
+    color: #ffffff;
+    margin-top: 50%;
+    margin-left: 10%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#home-subheading {
+    color: #ffffff;
+    font-size: 25px;
+     margin-left: 10%;
+     margin-top: 3%;
+}
+
 #about-heading {
     color: #ffffff;
     margin-top: 32%;
     margin-left: 25%;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -49,6 +82,34 @@ html, body {
     margin-top: 28%;
     font-size: 23px;
     padding-right: 18%;
+}
+
+#hackathon-header {
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+#hackathon-paragraph {
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+#learn-more-button {
+    color: var(--red);
+    font-weight: bolder;
+    margin-left: 6%;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none !important;
+} 
+
+a:hover {
+    text-decoration: none !important;
 }
 
 #menu {
@@ -60,6 +121,7 @@ html, body {
   min-height: 100%;
   padding-top: 80px;
 }
+
 
 .stats {
     margin-top: 5%;
@@ -100,3 +162,49 @@ html, body {
     margin-top: 5%;
     margin-bottom: 100px;
 }
+
+.align-items-center {
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center; /*Aligns horizontally center */
+}
+
+.home-sponsorlogo{
+    width: 60%;
+    padding: 5%;
+    height: auto;
+    vertical-align: middle;
+    filter: grayscale(100%);
+}
+
+#sponsor-header {
+    font-weight: bolder;
+}
+
+section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#quote-header {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -8%;
+}
+
+#quote-person {
+    color: white;
+    margin-top: 3%;
+    font-weight: 100;
+}
+
+.fade-img {
+    opacity: .3;
+    margin-top: 15%;
+    width: 110%;
+    right: 20%;
+    left: 0;
+    position: relative;
+}
+
