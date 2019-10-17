@@ -135,14 +135,14 @@ section {
 
 #hackathon-header {
     font-weight: bolder;
-    font-size: 40px;
-    padding: 10px;
+    font-size: 24px;
+    padding: 10px 0px 15px 0px;
     margin-left: 5%;
 }
 
 #hackathon-paragraph {
-    font-size: 20px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 10px 0px 15px 0px;
     margin-left: 5%;
 }
 
@@ -150,7 +150,7 @@ section {
     color: var(--red);
     font-weight: bolder;
     margin-left: 6%;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 a {
@@ -229,9 +229,25 @@ a:hover {
     vertical-align: middle;
     filter: grayscale(100%);
 }
+#home-sponsorlogo {
+    border: dashed 5px;
+    border-color: rgba(255, 0, 0, 0.2);
+}
 
+#home-sponsorlogo-middle {
+    border-left: dashed 5px;
+    border-right: dashed 5px;
+    border-color: rgba(255, 0, 0, 0.2);
+}
 #sponsor-header {
     font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 3%;
+}
+
+#sponsor-logo-section {
+    padding-left: 20%;
+    padding-right:20%;
 }
 
 #quote-header {
@@ -255,12 +271,15 @@ a:hover {
     z-index: 10;
     top: 5%;
     right: 40%;
+    width: 65%;
 }
 
 .news-header {
     color: var(--mild-salmon);
     font-weight: 600;
-    font-size: 25px;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .article-link {
@@ -274,4 +293,53 @@ a:hover {
 a:hover {
     text-decoration: none;
 }
+
+/*Media Query */
+
+@media only screen and (max-width: 600px) {
+    
+    #mc_embed_signup {
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+    }
+ 
+  #quote-header {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 8%;
+    padding: 0px 20px 0px 0px;
+    }
+
+    .fade-img {
+        display: none;
+    }
+
+    .color-background {
+        min-height: auto;
+    }
+
+    #sponsor-logo-section {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #home-sponsorlogo-middle {
+        border: 0px;
+    }
+
+    #home-sponsorlogo {
+        border: 0px;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    #footer-border {
+        display: none !important;
+    }
+
+}
+
 

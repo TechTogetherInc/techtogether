@@ -7,6 +7,7 @@
   text-align: center;
 }
 
+
 .newsletter-container h4 {
   color: #4f4f4f;
   margin: 2em 0;
@@ -28,6 +29,9 @@
 #mc_embed_signup {
   background: #FCF9F9;
   clear: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
 }
 
 #mc_embed_signup .subscribe input {
