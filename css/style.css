@@ -53,6 +53,10 @@ section {
   opacity: 0.1;
 }
 
+a.nav-link {
+    text-align:right;
+}
+
 
 .color-background {
     width: 100%;
@@ -265,16 +269,7 @@ a:hover {
     vertical-align: middle;
     filter: grayscale(100%);
 }
-#home-sponsorlogo {
-    border: dashed 5px;
-    border-color: rgba(255, 0, 0, 0.2);
-}
 
-#home-sponsorlogo-middle {
-    border-left: dashed 5px;
-    border-right: dashed 5px;
-    border-color: rgba(255, 0, 0, 0.2);
-}
 #sponsor-header {
     font-weight: bolder;
     font-size: 16px;
