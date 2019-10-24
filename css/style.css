@@ -1,4 +1,3 @@
-
 :root {
     --salmon: #FF8978;
     --mild-salmon: #FF9999;
@@ -10,11 +9,137 @@
 html, body {
     margin:0;
     padding:0;
-    font-family: "Helvetica-Neue", sans-serif;
+    font-family: Helvetica;
 }
+
+section {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+/*Color Classes*/
+
+.black {
+    color: black;
+}
+
+#chapter-heading {
+    color: #ffffff;
+    padding-bottom: 100px;
+    margin-left: 25%;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#chapter-subheading {
+    color: #ffffff;
+    margin-top: 28%;
+    font-size: 23px;
+    padding-right: 18%;
+}
+
+.header-bg-image {
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+}
+
+.header-bg-image img {
+  height: auto;
+  width: 105vh;
+  opacity: 0.1;
+}
+
+a.nav-link {
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+}
+
+.fixed-top{
+    background-color: rgb(0,0,0,0.1);
+}
+
 
 .color-background {
     width: 100%;
+    min-height: 100vh;
+    height: auto;
+}
+
+.image-background {
+    width: 100%;
+    height: 100vh;
+    background: url(../imgs/photos/nav_jump.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.background-2 {
+    width: 100%;
+    height: 100vh;
+    background: url(../imgs/logos/mark_techtogether_gray.svg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #FF8978;
+    position: relative;
+}
+
+.background-3 {
+    width: 100%;
+    height: 100vh;
+    background: url(../imgs/logos/mark_techtogether_gray.svg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #8F99FB;
+    position: relative;
+}
+
+.background-4 {
+    width: 100%;
+    height: 100vh;
+    background: url(../imgs/logos/mark_techtogether_gray.svg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #4B94A0;
+    position: relative;
+}
+
+
+.image-background-3 {
+    width: 100%;
+    height: 100vh;
+    background: url(../imgs/logos/mark_techtogether_gray.svg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #FF0000;
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(143,153,251, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.layer-2 {
+    background-color: rgba(255, 137, 120, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.layer-4 {
+    background-color: rgba(75, 148, 160, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
 }
 
 
@@ -29,7 +154,6 @@ html, body {
   
 .title {
     margin-top: 3%;
-    color: #4B94A0;
     text-align: center;
     font-weight: 700;
     font-size: 45px;
@@ -37,11 +161,27 @@ html, body {
     padding-bottom: 2%;
 }
 
+#home-heading {
+    color: #ffffff;
+    margin-top: 30%;
+    margin-left: 10%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#home-subheading {
+    color: #ffffff;
+    font-size: 25px;
+     margin-left: 10%;
+     margin-top: 3%;
+    font-weight: lighter;
+}
+
 #about-heading {
     color: #ffffff;
     margin-top: 32%;
     margin-left: 25%;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -51,141 +191,43 @@ html, body {
     font-size: 23px;
     padding-right: 18%;
 }
-.home-heading {
-    color: white;
-    padding-top: 35vh;
-    padding-left:20%;
-    font-size: 65px;
-    font-weight: bold;
+
+#hackathon-header {
+    font-weight: bolder;
+    font-size: 32px;
+    padding: 10px 0px 15px 0px;
+    margin-left: 5%;
 }
 
-.home-subhead {
-    color: white;
-    padding-left:20%;
-    padding-top:10px;
-    font-size:2vw;
-}
-/* @media only screen and (max-width: 768px) {
-    .home-heading{
-        font-size:3rem;
-        padding: 25vh 10% 0 10%;
-    }
-    .home-subhead{
-        padding: 10px 10% 0 10%;
-    }
-} */
-.home-subheading{
-    color: var(--salmon) !important;
-    font-size:1rem;
-    font-weight:bold;
+#hackathon-paragraph {
+    font-size: 18px;
+    padding: 10px 0px 15px 0px;
+    margin-left: 5%;
 }
 
-.home-title{
-    font-size:2rem;
-    margin:10px 0 10px 0;
-    font-weight:bold;
-    padding: 30px 0 30px 0;
-}
-
-.home-subtitle{
-    font-size:1.3rem;
-    font-weight:bold;
-    margin:10px 0 10px 0;
-
-}
-
-/* .navbar {
-    background-color: url('{{page.bg_color}}');
-} */
-.home-learnmore{
-    font-size:1.2rem;
+#learn-more-button {
     color: var(--red);
-    font-weight:bold;
+    font-weight: bolder;
+    font-size: 16px;
 }
 
-.home-quote{
-    font-size: 20px;
-    font-weight:bold;
-    color:white;
+#learn-more-button:hover {
+    text-decoration: underline;
 }
 
-.more-circle{
-    margin-top:-40px;
+.organizerimg
+{
+    width:100%; 
+    height: auto; 
 }
-/* @media only screen and (max-width: 768px) {
-    .more-circle{
-        padding-top:20px;
-        margin-top:0;
-    }
-} */
 
-.chapters-sol {
-    background-image: 
-    /* linear-gradient(
-        rgba(143, 153, 251, 0.45), 
-        rgba(143, 153, 251, 0.45)
-      ), */
-    linear-gradient(
-        rgba(255, 255, 255, 0.5), 
-        rgba(255, 255, 255, 0.5)
-      ), 
-        url('../imgs/photos/chapters_sol.png');
-    background-repeat: no-repeat;
-    background-position-x: 80%;
-    background-position-y: -10%;
+a {
+    text-decoration: none !important;
+} 
+
+a:hover {
+    text-decoration: none !important;
 }
-.navbar-toggler{
-    background:rgba(0,0,0,0.1);
-    padding:20px;
-    border-radius:50%;
-
-}
-/* .navbar-collapse {
-    height:90vh;
-    background: 
-    linear-gradient(
-        url('{{page.bg_color}}'),
-        url('{{page.bg_color}}')
-      ),
-      url("/imgs/photos/nav_jump.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 0;
-} */
-
-
-/* .navbar-collapse:after {
-    content:'';
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    background-color: url('{{page.bg_color}}');
-    opacity: 0.1;
-} */
-
-.align-items-center {
-    display: flex; 
-    align-items: center;  /*Aligns vertically center */
-    justify-content: center; /*Aligns horizontally center */
-  }
-
-.home-sponsorlogo{
-    width:15vw;
-    padding:5%;
-    height:auto;
-    vertical-align: middle;
-    filter: grayscale(100%);
-}
-/* @media only screen and (max-width: 768px) {
-    .home-sponsorlogo {
-      width:50vw;
-      height:auto;
-    }
-  } */
 
 #menu {
   background-color:red;
@@ -197,44 +239,43 @@ html, body {
   padding-top: 80px;
 }
 
+
 .stats {
     margin-top: 5%;
     margin-left: 5%;
 }
 
 .dashed-circle{
-    height: 200px ;
-    width: 200px ;
-    display: table-cell;
     text-align: center;
     vertical-align: middle;
-    margin-left: 10%;
+/*    height: 280px;*/
+    width: 100%;
+/*    margin-left: 10%;*/
+    border-radius: 30px;
+/*    border:8px dashed var(--light-nude);*/
+}
+
+.number {
+/*    margin-top: 30%;*/
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.impact-name {
+    font-size: 24px;
+    text-align: center;
+    font-weight:lighter;
+}
+
+.study-heading {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.peoplepic
+{
     border-radius: 50%;
-    border: 5px dashed var(--mild-salmon);
-}
-
-.footer{
-    margin:10px;
-}
-
-.circle-container {
-    padding: 7%;
-    vertical-align: middle;
-}
-
-.circle-image{
-    border-radius:50%;
-    width: 30vw;
-    height: auto;
-}
-/* @media only screen and (max-width: 768px) {
-    .circle-image{
-        width: 80vw;
-        height:auto;
-    }
-} */
-.a {
-    text-decoration: none;
+    width: 150px;
 }
 
 .study-paragraph {
@@ -244,69 +285,129 @@ html, body {
     margin-bottom: 100px;
 }
 
-.stats{
-    padding-right: 50px;
+.align-items-center {
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center; /*Aligns horizontally center */
 }
 
-.organizerimg
-{
-    width:100%; 
-    height: auto; 
-    opacity: 0.3;
+.home-sponsorlogo{
+    width: 60%;
+    padding: 5%;
+    height: auto;
+    vertical-align: middle;
+    filter: grayscale(100%);
 }
 
-.team
-{
-    width:18%;
-    margin-bottom: 5%
+#sponsor-header {
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 3%;
 }
 
-.people
-{
-    margin-left: 450px;
+#sponsor-logo-section {
+    padding-left: 20%;
+    padding-right:20%;
 }
 
-.peoplepic
-{
-    border-radius: 50%;
-    width: 150px;
+#quote-header {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -8%;
 }
-section
-{
-    background-color: white;
-}
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    font-weight: bold;
-    font-family: Helvetica;
-  }
-  ::-moz-placeholder { /* Firefox 19+ */
-    font-weight: bold;
-    font-family: Helvetica;
-  }
-  :-ms-input-placeholder { /* IE 10+ */
-    font-weight: bold;
-    font-family: Helvetica;
-  }
-  :-moz-placeholder { /* Firefox 18- */
-    font-weight: bold;
-    font-family: Helvetica;
-  }
 
-:hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color:red ;
-  }
-  :hover::-moz-placeholder { /* Firefox 19+ */
-    color:red ;
-  }
-  :hover:-ms-input-placeholder { /* IE 10+ */
+#quote-person {
+    color: white;
+    margin-top: 3%;
+    font-weight: 100;
+}
+
+.fade-img {
+    opacity: .35;
+    margin-right: 10%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    top: 5%;
+    right: 40%;
+    width: 65%;
+}
+
+.news-header {
+    color: var(--mild-salmon);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.article-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+a.article-link:hover {
     color:red;
-  }
-  :hover:-moz-placeholder { /* Firefox 18- */
-    color:red ;
-  }
+}
 
-  #mce-EMAIL:hover, #mce-COMPANY:hover, #mce-NAME:hover, #mce-JOBTITLE:hover
-  {
-      border-bottom-color: #FF0000;
-  }
+ul.list-unstyled {
+    text-align: right;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*Media Query */
+
+@media only screen and (max-width: 600px) {
+    
+    #mc_embed_signup {
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+    }
+ 
+  #quote-header {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 8%;
+    padding: 0px 20px 0px 0px;
+    }
+
+    .fade-img {
+        display: none;
+    }
+
+    .color-background {
+        min-height: auto;
+    }
+
+    #sponsor-logo-section {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #home-sponsorlogo-middle {
+        border: 0px;
+    }
+
+    #home-sponsorlogo {
+        border: 0px;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    #footer-border {
+        display: none !important;
+    }
+
+}
+
 

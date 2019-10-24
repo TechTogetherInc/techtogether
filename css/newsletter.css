@@ -1,20 +1,12 @@
 /*** newsletter Start ****/
-.newsletter-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 5em 0;
-  padding: 0;
-}
 
 .newsletter-container h3 {
+  margin-top: 5%;
   font-size: 3em;
   font-weight: bold;
   text-align: center;
 }
+
 
 .newsletter-container h4 {
   color: #4f4f4f;
@@ -35,8 +27,10 @@
 }
 
 #mc_embed_signup {
-  background: #FCF9F9;
   clear: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
 }
 
 #mc_embed_signup .subscribe input {
