@@ -272,6 +272,17 @@ a:hover {
     font-weight: bolder;
 }
 
+.job-heading {
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 20px 0px 20px 0px;
+}
+
+.job-paragraph {
+    padding-right: 12%;
+    font-size: 20px;
+}
+
 .peoplepic
 {
     border-radius: 50%;
