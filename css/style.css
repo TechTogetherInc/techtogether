@@ -190,6 +190,13 @@ a.nav-link {
 
 }
 
+.about-header-3 {
+    font-weight:bold;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
 .about-header-2 {
     font-weight:bold;
     padding-bottom: 30px;
@@ -265,6 +272,12 @@ a.nav-link {
     height: auto; 
 }
 
+.hackathonimg {
+    background-image: linear-gradient(to bottom, rgba(143, 153, 251, 0.52), rgba(143, 153, 251, 0.73)),
+    url('/imgs/photos/photobooth_1.jpg');
+    background-size: cover;
+    height: 100vh;
+}
 a {
     text-decoration: none !important;
 } 
@@ -420,7 +433,19 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
     
+    
+    .card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .about-header {
+        text-align: left;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .about-header-3 {
         text-align: left;
         padding-top: 40px;
     }
