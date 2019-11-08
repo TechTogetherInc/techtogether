@@ -6,6 +6,17 @@
     --red: #FF0000;
     --light-nude:#FFEBEB;
 }
+
+.slider { width: 100%; background-color: lightgray; margin: 10px auto; height: 200px; }
+.slidercontainer { width: 85%; height: 200px; margin: 0px auto; }
+.sliderspot { width: 15px; height: 15px; border-radius: 100%; background-color: gray; display: inline; cursor: pointer; cursor: hand; }
+.sliderspot:hover { background-color: black; }
+.spot1 { margin: 85px 30px; float: left; }
+.spot2 { margin: 85px 30px; float: right; }
+#sliderul { list-style-type: none; margin-left: 4%; width: 75%; text-align: center; height: 150px; padding: 10px; line-height: 30px; display: inline-block; }
+.slidercontent { margin-top: 20px; font-size: 20px; color: #1D1F20; }
+.slidercontent span { font-size: 18px; display: block; margin-top: 10px; color: #343436; }
+
 html, body {
     margin:0;
     padding:0;
@@ -321,14 +332,13 @@ a:hover {
     padding-right:20%;
 }
 
-#quote-header {
+.quote-header {
     color: white;
     font-size: 30px;
     font-weight: 600;
-    margin-top: -8%;
 }
 
-#quote-person {
+.quote-person {
     color: white;
     margin-top: 3%;
     font-weight: 100;
@@ -382,12 +392,16 @@ a:hover {
         padding-right: 15% !important;
     }
  
-  #quote-header {
+  .quote-header {
     color: white;
     font-size: 24px;
     font-weight: 600;
     margin-top: 8%;
     padding: 0px 20px 0px 0px;
+    }
+
+    .quote-person {
+    font-size: 24px;
     }
 
     .fade-img {
