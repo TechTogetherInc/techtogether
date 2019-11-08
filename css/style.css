@@ -74,7 +74,6 @@ a.nav-link {
     background-color: rgb(0,0,0,0.1);
 }
 
-
 .color-background {
     width: 100%;
     min-height: 100vh;
@@ -179,6 +178,35 @@ a.nav-link {
     font-size: 50px;
     font-weight: bold;
 }
+
+.about-section {
+    height:100%;
+}
+
+.about-header {
+    font-weight:bold;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+.about-header-2 {
+    font-weight:bold;
+    padding-bottom: 30px;
+    text-align: left;
+
+}
+
+#home-cta {
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+#home-cta-2 {
+    margin-top: 30%;
+    margin-left:2%;
+}
+
 
 #home-subheading {
     color: #ffffff;
@@ -387,6 +415,18 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
     
+    .about-header {
+        text-align: left;
+        padding-top: 40px;
+    }
+
+    .about-header-2 {
+        text-align: left;
+        padding-top: 40px;
+    }
+    .about-section {
+        padding:0px 50px 0px 50px;
+    }
     #mc_embed_signup {
         padding-left: 15% !important;
         padding-right: 15% !important;
