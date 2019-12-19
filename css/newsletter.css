@@ -28,21 +28,20 @@
 
 #mc_embed_signup {
   clear: left;
-  padding-left: 20%;
+  padding-left: 2%;
   padding-right: 20%;
-  padding-bottom: 5%;
 }
 
 #mc_embed_signup .subscribe input {
   margin: 0;
   padding: 0 5em;
   font-weight: bold;
-  background-color: #c71414;
+  background-color: #dc3545;
   border-radius: .5em;
 }
 
 #mc_embed_signup .subscribe input:hover {
-  background-color: #c71414;
+  background-color: #dc3545;
 }
 
 /*** newsletter End ***/
