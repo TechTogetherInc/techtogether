@@ -115,6 +115,14 @@ a.nav-link {
     position: relative;
 }
 
+.background-5 {
+    width: 100%;
+    height: 100vh;
+    background: url(../imgs/photos/ttb_stadium.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #8F99FB;
+    position: relative;
+}
 
 .image-background-3 {
     width: 100%;
