@@ -97,7 +97,7 @@ a.nav-link {
     height: 100vh;
     background: url(../imgs/logos/mark_techtogether_gray.svg) no-repeat center center fixed;
     background-size: cover;
-    background-color: #FF8978;
+    background-color: #808CFB;
     position: relative;
 }
 
@@ -106,7 +106,7 @@ a.nav-link {
     height: 100vh;
     background: url(../imgs/photos/ttb_organizers2.png) no-repeat center center fixed;
     background-size: cover;
-    background-color: #8F99FB;
+    background-color: #808CFB;
     position: relative;
 }
 
@@ -147,7 +147,7 @@ a.nav-link {
 }
 
 .layer-2 {
-    background-color: rgba(255, 137, 120, 0.8);
+    background-color: rgba(128, 140, 251, 0.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -183,6 +183,11 @@ a.nav-link {
     padding-bottom: 2%;
 }
 
+#icon {
+    width:50px;
+    margin-bottom:10px;
+}
+/*Individual website pages header styles*/
 #home-heading {
     color: #ffffff;
     margin-top: 30%;
@@ -192,6 +197,7 @@ a.nav-link {
     text-align: left;
 }
 
+/*Actual home heading */
 #home-header {
     color: #ffffff;
     margin-top: 30%;
