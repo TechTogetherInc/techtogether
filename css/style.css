@@ -182,9 +182,13 @@ a.nav-link {
 #home-heading {
     color: #ffffff;
     margin-top: 30%;
-    margin-left: 10%;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 300;
+    text-align: center;
+}
+
+#home-heading-bold {
+    font-weight: 900;
 }
 
 .about-section {
