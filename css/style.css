@@ -34,6 +34,10 @@ section {
     color: black;
 }
 
+.center {
+    text-align: center;
+}
+
 #chapter-heading {
     color: #ffffff;
     padding-bottom: 100px;
@@ -182,6 +186,15 @@ a.nav-link {
 #home-heading {
     color: #ffffff;
     margin-top: 30%;
+    margin-left: 10%;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: left;
+}
+
+#home-header {
+    color: #ffffff;
+    margin-top: 30%;
     font-size: 50px;
     font-weight: 300;
     text-align: center;
@@ -261,6 +274,14 @@ a.nav-link {
     padding: 10px 0px 15px 0px;
     margin-left: 5%;
 }
+
+#subheader {
+    font-weight: bolder;
+    font-size: 28px;
+    padding: 10px 0px 15px 0px;
+    margin-left: 5%;
+}
+
 
 #hackathon-paragraph {
     font-size: 18px;
