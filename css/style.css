@@ -3,7 +3,7 @@
     --mild-salmon: #FF9999;
     --teal: #4B94A0;
     --light-purple: #8F99FB;
-    --red: #FF0000;
+    --red: #E73F33;
     --light-nude:#FFEBEB;
 }
 
@@ -20,7 +20,7 @@
 html, body {
     margin:0;
     padding:0;
-    font-family: Helvetica;
+    font-family: Roboto;
 }
 
 section {
@@ -34,6 +34,13 @@ section {
     color: black;
 }
 
+.red {
+    color:#E73F33;
+}
+
+.purple {
+    color:#808CFB;
+}
 .center {
     text-align: center;
 }
@@ -80,13 +87,13 @@ a.nav-link {
 
 .color-background {
     width: 100%;
-    min-height: 100vh;
+    min-height: 70vh;
     height: auto;
 }
 
 .image-background {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url(../imgs/photos/nav_jump.jpg) no-repeat center center fixed;
     background-size: cover;
     position: relative;
@@ -94,7 +101,7 @@ a.nav-link {
 
 .background-2 {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url(../imgs/logos/mark_techtogether_gray.svg) no-repeat center center fixed;
     background-size: cover;
     background-color: #808CFB;
@@ -103,7 +110,7 @@ a.nav-link {
 
 .background-3 {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url(../imgs/photos/ttb_organizers2.png) no-repeat center center fixed;
     background-size: cover;
     background-color: #808CFB;
@@ -112,7 +119,7 @@ a.nav-link {
 
 .background-4 {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url(../imgs/logos/mark_techtogether_gray.svg) no-repeat center center fixed;
     background-size: cover;
     background-color: #4B94A0;
@@ -121,7 +128,7 @@ a.nav-link {
 
 .background-5 {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url(../imgs/photos/ttb_stadium.png) no-repeat center center fixed;
     background-size: cover;
     background-color: #8F99FB;
@@ -130,7 +137,7 @@ a.nav-link {
 
 .image-background-3 {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url(../imgs/logos/mark_techtogether_gray.svg) no-repeat center center fixed;
     background-size: cover;
     background-color: #FF0000;
@@ -143,7 +150,7 @@ a.nav-link {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 .layer-2 {
@@ -152,7 +159,7 @@ a.nav-link {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 .layer-4 {
@@ -161,7 +168,7 @@ a.nav-link {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 
@@ -228,6 +235,14 @@ a.nav-link {
 
 }
 
+.hack-header-3 {
+    font-weight:500;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size:24px;
+
+}
+
 .about-header-2 {
     font-weight:bold;
     padding-bottom: 30px;
@@ -236,7 +251,7 @@ a.nav-link {
 }
 
 .hackathon-perk {
-    font-size: 24px;
+    font-size: 20px;
     padding-bottom: 20px;
 }
 
@@ -326,7 +341,7 @@ a:hover {
 }
 
 #menu {
-  background-color:red;
+  background-color:#E73F33;
   position: absolute;
   top: 0;
   right: 0;
@@ -335,6 +350,13 @@ a:hover {
   padding-top: 80px;
 }
 
+.btn-danger{
+    background-color: #E73F33;
+}
+
+.btn-danger:hover{
+    background-color: #B23027;
+}
 
 .stats {
     margin-top: 5%;
@@ -456,8 +478,18 @@ a:hover {
     margin-top: 2%;
 }
 
+.blog-link {
+    color: #E73F33;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+a.blog-link:hover {
+    color:#E73F33;
+}
+
 a.article-link:hover {
-    color:red;
+    color:#E73F33;
 }
 
 ul.list-unstyled {
@@ -466,6 +498,10 @@ ul.list-unstyled {
 
 a:hover {
     text-decoration: none;
+}
+
+.card-body{
+    background-color:var(--light-nude);
 }
 
 /*Media Query */
