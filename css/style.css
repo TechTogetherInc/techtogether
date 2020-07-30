@@ -32,6 +32,15 @@ section {
     padding-bottom: 7%;
 }
 
+.space {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col-2-img {
+    width:100px;
+    height:100px;
+}
 /*Color Classes*/
 
 .black {
