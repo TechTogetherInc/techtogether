@@ -79,6 +79,33 @@ section {
   opacity: 0.1;
 }
 
+.ticker {
+    font-size:20px;
+    color: #181D46;
+    font-family: Barlow;
+    font-weight: 700;
+}
+
+.ticker-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #181D46;
+    font-family: Roboto;
+}
+
+.ticker-link {
+    color:#181D46;
+}
+
+.ticker-link:hover {
+    color:#333F9B;
+}
+
+.ticker-section {
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
 a.nav-link {
     font-size: 24px;
     color: white;
@@ -89,6 +116,9 @@ a.nav-link {
     background-color: rgb(0,0,0,0.1);
 }
 
+.bg-blue {
+    background-color: #51DBF6;
+}
 .color-background {
     width: 100%;
     min-height: 70vh;
@@ -113,12 +143,12 @@ a.nav-link {
 }
 
 .background-3 {
-    width: 100%;
-    height: 70vh;
-    background: url(../imgs/photos/ttb_organizers2.png) no-repeat center center fixed;
+/*    width: 100%;
+    height: 70vh;*/
+    background: url(../imgs/photos/hacker-celebrate-purple.png) no-repeat center center fixed;
     background-size: cover;
     background-color: #808CFB;
-    position: relative;
+/*    position: relative;*/
 }
 
 .background-4 {
@@ -231,6 +261,8 @@ a.nav-link {
     font-weight:bold;
     padding-bottom: 50px;
     text-align: left;
+    color: #181D46;
+    font-family: Barlow;
 
 }
 
@@ -297,9 +329,11 @@ a.nav-link {
 
 #hackathon-header {
     font-weight: bolder;
+    color: #181D46;
     font-size: 32px;
     padding: 10px 0px 15px 0px;
     margin-left: 5%;
+    font-family: Barlow;
 }
 
 #subheader {
@@ -308,6 +342,7 @@ a.nav-link {
     padding: 10px 0px 15px 0px;
     margin-left: 5%;
     font-family: Barlow;
+    color: #181D46;
 }
 
 
@@ -315,12 +350,15 @@ a.nav-link {
     font-size: 18px;
     padding: 10px 0px 15px 0px;
     margin-left: 5%;
+    font-weight: 400;
+    color: #181D46;
+    font-family: Roboto;
 }
 
 #learn-more-button {
     color: var(--red);
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #learn-more-button:hover {
@@ -365,36 +403,48 @@ a:hover {
     background-color: #B23027;
 }
 
-.stats {
-    margin-top: 5%;
-    margin-left: 5%;
+.bg-navy {
+   background-color: #181D46;
 }
 
-.dashed-circle{
+.banner {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top:13%;
+    padding-bottom: 0!important;
+    padding-top:3%;
+}
+
+
+.stat-block {
     text-align: center;
     vertical-align: middle;
-/*    height: 280px;*/
+    background-color:#181D46;
     width: 100%;
-/*    margin-left: 10%;*/
-    border-radius: 30px;
-/*    border:8px dashed var(--light-nude);*/
+    padding: 15px;
+    text-align: center;
 }
 
 .number {
-/*    margin-top: 30%;*/
+    color: #808CFB;
     font-weight: bolder;
     font-size: 40px;
+    font-family: Barlow;
 }
 
 .impact-name {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
+    font-family: Barlow;
+    color: white;
     font-weight:lighter;
 }
 
 .study-heading {
     font-size: 32px;
     font-weight: bolder;
+    color: #181D46;
+    font-family: Barlow;
 }
 
 .job-heading {
@@ -419,6 +469,8 @@ a:hover {
     font-size: 20px;
     margin-top: 5%;
     margin-bottom: 100px;
+    color: #181D46;
+    font-family: Roboto;
 }
 
 .align-items-center {
@@ -455,7 +507,8 @@ a:hover {
 .quote-person {
     color: white;
     margin-top: 3%;
-    font-weight: 100;
+    font-weight: 300;
+
 }
 
 .fade-img {
