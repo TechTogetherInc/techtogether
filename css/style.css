@@ -38,8 +38,8 @@ section {
 }
 
 .col-2-img {
-    width:100px;
-    height:100px;
+    width: 90%;
+    padding-left: 50px;
 }
 /*Color Classes*/
 
