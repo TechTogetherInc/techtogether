@@ -40,6 +40,10 @@ section {
    background-color: #181D46;
 }
 
+.bg-purple {
+   background-color: #808CFB;
+}
+
 .space {
     padding-left: 50px;
     padding-right: 50px;
@@ -529,8 +533,10 @@ a:hover {
 
 .quote-header {
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
+    margin-left:20%;
+    margin-right:20%;
 }
 
 .quote-person {
