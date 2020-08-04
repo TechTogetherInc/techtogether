@@ -535,11 +535,11 @@ a:hover {
 }
 
 .job-heading {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bolder;
-    padding: 20px 0px 20px 0px;
+    color: #181D46;
+    font-family: Barlow;
 }
-
 .job-paragraph {
     padding-right: 12%;
     font-size: 20px;
