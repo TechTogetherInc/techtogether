@@ -440,9 +440,8 @@ a:hover {
 .banner {
     padding-left: 50px;
     padding-right: 50px;
-    margin-top:13%;
+    padding-top:10%;
     padding-bottom: 0!important;
-    padding-top:3%;
 }
 
 
@@ -605,6 +604,10 @@ a:hover {
 @media only screen and (max-width: 600px) {
 
     img {
+        display: none;
+    }
+
+    .hide-mobile{
         display: none;
     }
     
