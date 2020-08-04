@@ -277,6 +277,7 @@ a.nav-link {
     text-align: left;
     color: #181D46;
     font-family: Barlow;
+    font-size: 32px;
 
 }
 
@@ -318,12 +319,10 @@ a.nav-link {
 }
 
 
-#home-subheading {
-    color: #ffffff;
-    font-size: 25px;
-     margin-left: 10%;
-     margin-top: 3%;
-    font-weight: lighter;
+.subheading {
+    font-weight: 300;
+    text-align: center;
+    font-size: 21px;
 }
 
 #about-heading {
