@@ -53,6 +53,10 @@ section {
    background-color: #98A2FB;
 }
 
+.bg-lightgrey {
+   background-color: #EFEFF4;
+}
+
 .space {
     padding-left: 50px;
     padding-right: 50px;
@@ -78,6 +82,22 @@ section {
 .center {
     text-align: center;
 }
+
+/*Navigation CSS*/
+a.nav-link {
+    font-size: 14px !important;
+}
+
+.dropdown-item:hover {
+    background-color: #9CE4F3;
+}
+
+.navbar-light .navbar-text a{
+    background-color:#9CE4F3;
+    color: #181D46;
+    border-radius: 5px;
+}
+
 
 #chapter-heading {
     color: #ffffff;
@@ -196,12 +216,12 @@ a.nav-link {
 }
 
 .background-4 {
-    width: 100%;
-    height: 70vh;
-    background: url(../imgs/logos/mark_techtogether_gray.svg) no-repeat center center fixed;
+/*    width: 100%;
+    height: 70vh;*/
+    background: url(../imgs/photos/inspire.png) no-repeat center center fixed;
     background-size: cover;
-    background-color: #4B94A0;
-    position: relative;
+    background-color: #808CFB;
+/*    position: relative;*/
 }
 
 .background-5 {
@@ -477,8 +497,9 @@ a:hover {
 .banner {
     padding-left: 50px;
     padding-right: 50px;
-    padding-top:10%;
-    padding-bottom: 0!important;
+    padding-top:5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 
