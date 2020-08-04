@@ -79,6 +79,16 @@ section {
     text-align: center;
 }
 
+/*Navigation CSS*/
+a.nav-link {
+    font-size: 14px !important;
+}
+
+.dropdown-item:hover {
+    background-color: #9CE4F3;
+}
+
+
 #chapter-heading {
     color: #ffffff;
     padding-bottom: 100px;
