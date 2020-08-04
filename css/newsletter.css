@@ -44,4 +44,12 @@
   background-color: #dc3545;
 }
 
+@media only screen and (max-width: 600px) {
+
+  #mc_embed_signup {
+        padding:0px;
+    }
+
+  }
+
 /*** newsletter End ***/

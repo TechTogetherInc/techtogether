@@ -559,6 +559,16 @@ a:hover {
     margin-bottom: 5%;
 }
 
+.newsletter-header {
+    color:white;
+    text-align: left;
+    padding-right:30px;
+    font-family: Roboto,Helvetica-Light, sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    margin-top:0px;
+}
+
 .article-link {
     color: inherit;
     text-decoration: none;
@@ -611,6 +621,9 @@ a:hover {
         display: none;
     }
     
+    .newsletter-header{
+        padding:none;
+    }
     .card {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -634,17 +647,17 @@ a:hover {
     .about-section {
         padding:0px 50px 0px 50px;
     }
+
     #mc_embed_signup {
-        padding-left: 15% !important;
-        padding-right: 15% !important;
+        padding:none;
     }
- 
-  .quote-header {
-    color: white;
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 8%;
-    padding: 0px 20px 0px 0px;
+    
+    .quote-header {
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 8%;
+        padding: 0px 20px 0px 0px;
     }
 
     .quote-person {
