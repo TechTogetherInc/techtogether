@@ -178,12 +178,12 @@ a.nav-link {
 }
 
 .background-2 {
-    width: 100%;
-    height: 70vh;
-    background: url(../imgs/logos/mark_techtogether_gray.svg) no-repeat center center fixed;
+/*    width: 100%;
+    height: 70vh;*/
+    background: url(../imgs/photos/explore_vr.png) no-repeat center center fixed;
     background-size: cover;
     background-color: #808CFB;
-    position: relative;
+/*    position: relative;*/
 }
 
 .background-3 {
