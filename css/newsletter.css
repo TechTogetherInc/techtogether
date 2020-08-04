@@ -9,8 +9,13 @@
 
 
 .newsletter-container h4 {
-  color: #4f4f4f;
-  margin: 2em 0;
+    color: white;
+    text-align: left;
+    padding-right:30px;
+    font-family: Roboto,Helvetica-Light, sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    margin-top:0px;
 }
 
 .newsletter-container .input-container {

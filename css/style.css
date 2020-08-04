@@ -32,12 +32,25 @@ section {
     padding-bottom: 7%;
 }
 
+.bottom {
+    padding-top: 0%;
+    padding-bottom: 10%;
+}
+
 .bg-blue {
     background-color: #51DBF6;
 }
 
 .bg-navy {
    background-color: #181D46;
+}
+
+.bg-purple {
+   background-color: #808CFB;
+}
+
+.bg-purple-2 {
+   background-color: #98A2FB;
 }
 
 .space {
@@ -80,6 +93,23 @@ section {
     margin-top: 28%;
     font-size: 23px;
     padding-right: 18%;
+}
+
+.program {
+    margin-left: 3%;
+}
+
+.program-subheader {
+   font-size: 24px;
+   padding-top: 20px;
+   text-align: left;
+}
+
+.program-paragraph {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+    padding-bottom: 20px;
 }
 
 .header-bg-image {
@@ -326,6 +356,13 @@ a.nav-link {
     color: white;
 }
 
+.subheading-navy {
+    font-weight: 300;
+    text-align: center;
+    font-size: 21px;
+    color: #181D46;
+}
+
 #about-heading {
     color: #ffffff;
     margin-top: 32%;
@@ -495,7 +532,7 @@ a:hover {
 
 .study-paragraph {
     padding-right: 12%;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 5%;
     margin-bottom: 100px;
     color: #181D46;
@@ -529,8 +566,10 @@ a:hover {
 
 .quote-header {
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
+    margin-left:20%;
+    margin-right:20%;
 }
 
 .quote-person {
@@ -557,16 +596,6 @@ a:hover {
     font-size: 16px;
     margin-top: 5%;
     margin-bottom: 5%;
-}
-
-.newsletter-header {
-    color:white;
-    text-align: left;
-    padding-right:30px;
-    font-family: Roboto,Helvetica-Light, sans-serif; 
-    font-weight: 400;
-    font-size: 18px;
-    margin-top:0px;
 }
 
 .article-link {
