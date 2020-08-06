@@ -286,8 +286,10 @@ a.nav-link {
 }
 
 #icon {
-    width:50px;
+    width:20px;
     margin-bottom:10px;
+    margin-right: 5px;
+
 }
 /*Individual website pages header styles*/
 #home-heading {
