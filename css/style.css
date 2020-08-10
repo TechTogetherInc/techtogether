@@ -133,6 +133,19 @@ a.nav-link {
    text-align: left;
 }
 
+.resource-subheader {
+    border: 2px #EFEFF4 solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.resource-subheader:hover {
+    border: 2px #FC7361 solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
 .program-paragraph {
     font-size: 18px;
     text-align: left;
