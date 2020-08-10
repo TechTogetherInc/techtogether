@@ -230,6 +230,13 @@ a.nav-link {
     background-color: #808CFB;
 }
 
+.background-5 {
+    background: url(../imgs/photos/ttb_jump.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #808CFB;
+}
+
+
 .image-background-3 {
     width: 100%;
     height: 70vh;
