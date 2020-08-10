@@ -91,6 +91,11 @@ li.partner {
     text-align: center;
 }
 
+.headshot {
+    width:100px;
+    border-radius: 50%;
+}
+
 /*Navigation CSS*/
 a.nav-link {
     font-size: 14px !important;
