@@ -74,6 +74,12 @@ li.partner {
     width: 90%;
     padding-left: 50px;
 }
+
+.circle-container{
+    border: 2px #EFEFF4 solid;
+    padding: 30px;
+    border-radius: 10px;
+}
 /*Color Classes*/
 
 .black {
