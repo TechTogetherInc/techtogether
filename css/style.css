@@ -94,6 +94,7 @@ li.partner {
 .headshot {
     width:100px;
     border-radius: 50%;
+    margin-bottom:10px;
 }
 
 /*Navigation CSS*/
