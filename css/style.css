@@ -64,6 +64,44 @@ li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18p
 .resource-subheader {border: 2px #EFEFF4 solid;padding: 10px;border-radius: 10px;}
 .resource-subheader:hover {border: 2px #FC7361 solid;padding: 10px;border-radius: 10px;}
 .subheading {font-weight: 300;text-align: center; font-size: 21px; color: white;}
+.number {
+    color: #808CFB;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Barlow;
+    text-align: center;
+}
+
+.subheading-navy {
+    font-weight: 300;
+    text-align: center;
+    font-size: 21px;
+    color: #181D46;
+}
+.impact-name {
+    font-size: 20px;
+    text-align: center;
+    font-family: Barlow;
+    color: white;
+    font-weight:lighter;
+}
+
+.program {
+    margin-left: 3%;
+}
+
+.program-subheader {
+   font-size: 24px;
+   padding-top: 20px;
+   text-align: left;
+}
+
+.program-paragraph {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
 
 /*Navigation Styling*/
 a.nav-link{font-size:14px!important}
