@@ -9,6 +9,7 @@ section{padding-top:7%;padding-bottom:7%}
 .bg-blue{background-color:#51dbf6}.bg-purple{background-color:#808cfb}
 .bg-purple-2{background-color:#98a2fb}
 .col-2-img{width:90%;padding-left:50px}
+.col-2-img-lg {width:110%;padding-left:0px;}
 .color-background{width:100%;min-height:70vh;height:auto}
 .bg-lightgrey {background-color: #EFEFF4;}
 .bg-blue {background-color: #51DBF6;}
@@ -36,7 +37,7 @@ li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18p
 
 
 /*Section Styling*/
-.circle-container{border:2px #efeff4 solid;padding:30px;border-radius:10px}
+.circle-container{border:2px #efeff4 solid;padding:30px;margin-top:30px;border-radius:10px}
 .bottom{padding-top:0;padding-bottom:10%}
 .space{padding-left:50px;padding-right:50px}
 .about-section{height:100%}
