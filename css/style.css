@@ -17,6 +17,7 @@ section{padding-top:7%;padding-bottom:7%}
 .bg-purple {background-color: #808CFB;}
 .bg-purple-2 {background-color: #98A2FB;}
 .bg-pink {background-color: #FDA094}
+.bg-white {background-color:#FFFFFF;}
 
 
 /*Image Backgrounds*/
@@ -55,6 +56,7 @@ li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18p
 #hackathon-header{font-weight:bolder;color:#181d46;font-size:32px;padding:10px 0 15px 0;margin-left:5%;font-family:Barlow}
 .header-2{font-weight:bolder;color:#181d46;font-size:32px;padding:10px 0 40px 0;margin-left:5%;font-family:Barlow;text-align:center}
 #subheader{font-weight:bolder;font-size:28px;padding:10px 0 15px 0;margin-left:5%;font-family:Barlow;color:#181d46}
+h5#subheader{font-weight:bolder;font-size:22px;padding:10px 0 0px 0;margin-left:5%;font-family:Barlow;color:#181d46; text-align:center;}
 #hackathon-paragraph{font-size:18px;padding:10px 0 15px 0;margin-left:5%;font-weight:400;color:#181d46;font-family:Roboto}
 #hackathon-paragraph-2{font-size:18px;padding:10px 0 15px 0;font-weight:400;color:#181d46;font-family:Roboto}
 .job-heading{font-size:24px;font-weight:bolder;color:#181d46;font-family:Barlow}
@@ -66,6 +68,7 @@ li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18p
 .resource-subheader {border: 2px #EFEFF4 solid;padding: 10px;border-radius: 10px;}
 .resource-subheader:hover {border: 2px #FC7361 solid;padding: 10px;border-radius: 10px;}
 .subheading {font-weight: 300;text-align: center; font-size: 21px; color: white;}
+#hackathon-paragraph-grey{font-size:18px;color:#868686;padding:10px 0 15px 0;font-weight:300;font-family:Roboto}
 .number {
     color: #808CFB;
     font-weight: bolder;
@@ -133,6 +136,7 @@ a.nav-link{font-size:24px;color:#fff;padding-top:10px}
 /*Icon Styling*/
 #social-icon{width:20px;margin-bottom:10px;margin-right:5px}
 #icon{width:50px;margin-bottom:10px;margin-right:5px}
+#newsletter-icon{width:50px;display:block;margin-left:auto;margin-right:auto;}
 
 /*Link Styling */
 .blog-link{color:#e73f33;text-decoration:none;margin-top:2%}
