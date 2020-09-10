@@ -18,6 +18,7 @@ section{padding-top:7%;padding-bottom:7%}
 .bg-purple-2 {background-color: #98A2FB;}
 .bg-pink {background-color: #FDA094}
 .bg-white {background-color:#FFFFFF;}
+.bg-text-pink {background-color: rgba(231, 63, 51, 0.3); padding:1% 5% 1% 5%; border: 0px solid; border-radius: 50px;}
 
 
 /*Image Backgrounds*/
@@ -69,6 +70,9 @@ h5#subheader{font-weight:bolder;font-size:22px;padding:10px 0 0px 0;margin-left:
 .resource-subheader:hover {border: 2px #FC7361 solid;padding: 10px;border-radius: 10px;}
 .subheading {font-weight: 300;text-align: center; font-size: 21px; color: white;}
 #hackathon-paragraph-grey{font-size:18px;color:#868686;padding:10px 0 15px 0;font-weight:300;font-family:Roboto}
+.ad-pretitle {color:#E73F33; font-size:18px;}
+.ad-title {color:#181D46; font-size:28px; font-weight: 900; padding:5% 0% 0% 0%;}
+.ad-subtitle {color:#868686; font-size:14px; font-weight: 300; padding-bottom:5%;}
 .number {
     color: #808CFB;
     font-weight: bolder;
@@ -145,6 +149,8 @@ a.blog-link:hover{color:#e73f33}a:hover{text-decoration:none}
 /*Button Styling*/
 #learn-more-button{color:var(--red);font-weight:bolder;font-size:18px}
 #learn-more-button:hover{text-decoration:underline;color:#ff5b4f}a{text-decoration:none!important}a:hover{text-decoration:none!important}
+.btn-primary {background-color:#E73F33; border-color: #E73F33;}
+.btn-primary:hover,active,visited {background-color:#B23027; border-color: #B23027;}
 
 /*Quote Styling*/
 .quote-header{color:#fff;font-size:28px;font-weight:600;margin-left:20%;margin-right:20%}
