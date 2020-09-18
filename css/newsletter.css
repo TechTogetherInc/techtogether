@@ -1,54 +1,43 @@
-/*** newsletter Start ****/
-
-.newsletter-container h3 {
-  margin-top: 5%;
-  font-size: 3em;
-  font-weight: bold;
-  text-align: center;
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper {
+  background-color: transparent !important;
 }
 
-
-.newsletter-container h4 {
-    color: white;
-    text-align: left;
-    padding-right:30px;
-    font-family: Roboto,Helvetica-Light, sans-serif; 
-    font-weight: 400;
-    font-size: 18px;
-    margin-top:0px;
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4, #mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4{
+  color: white !important;
+  font-size: 25px !important;
+  text-align: left !important;
+  font-weight: 700 !important;
+  font-family: Barlow !important;
 }
 
-.newsletter-container .input-container {
-  margin: 3em 0;
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p, #mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+  color: white !important;
+  font-size: 18px !important;
+  text-align: left !important;
+  font-weight: 400 !important;
+  font-family: Roboto,Helvetica-Light, sans-serif !important;
 }
 
-.newsletter-container .subscribe {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+  max-width: 600px !important;
+  padding-top:2% !important;
 }
 
-#mc_embed_signup .subscribe input {
-  margin: 0;
-  padding: 0 5em;
-  font-weight: bold;
-  background-color: #dc3545;
-  border-radius: .5em;
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+  background-color: #E73F33 !important;
+  color: white !important;
 }
 
-#mc_embed_signup .subscribe input:hover {
-  background-color: #dc3545;
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{
+  background-color: #E73F33 !important;
 }
 
-@media only screen and (max-width: 600px) {
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+  align-content: left !important;
+  max-width:30% !important;
+}
 
-  #mc_embed_signup {
-        padding:0px;
-    }
-
-  }
-
-/*** newsletter End ***/
+#mlb2-2691401.ml-form-embedContainer .ml-form-align-center {
+  text-align:left !important;
+  padding-left: 2%;
+}
