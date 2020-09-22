@@ -56,7 +56,8 @@ li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18p
 #about-heading{color:#fff;margin-top:32%;margin-left:25%;font-size:60px;font-weight:700}
 #hackathon-header{font-weight:bolder;color:#181d46;font-size:32px;padding:10px 0 15px 0;margin-left:5%;font-family:Barlow}
 .header-2{font-weight:bolder;color:#181d46;font-size:32px;padding:10px 0 40px 0;margin-left:5%;font-family:Barlow;text-align:center}
-#subheader{font-weight:bolder;font-size:28px;padding:10px 0 15px 0;margin-left:5%;font-family:Barlow;color:#181d46}
+.header-4{font-weight:bolder;color:#181d46;font-size:32px;padding:10px 0 40px 0;margin-left:5%;font-family:Barlow;text-align:left}
+#subheader{font-weight:bolder;font-size:28px;padding:10px 0 15px 0;font-family:Barlow;color:#181d46}
 h5#subheader{font-weight:bolder;font-size:22px;padding:10px 0 0px 0;margin-left:5%;font-family:Barlow;color:#181d46; text-align:center;}
 #hackathon-paragraph{font-size:18px;padding:10px 0 15px 0;margin-left:5%;font-weight:400;color:#181d46;font-family:Roboto}
 #hackathon-paragraph-2{font-size:18px;padding:10px 0 15px 0;font-weight:400;color:#181d46;font-family:Roboto}
