@@ -54,10 +54,10 @@ li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18p
 .hack-header-3{font-weight:500;padding-bottom:50px;text-align:center;font-size:24px}
 .about-header-2{font-weight:700;padding-bottom:30px;text-align:left}
 #about-heading{color:#fff;margin-top:32%;margin-left:25%;font-size:60px;font-weight:700}
-#hackathon-header{font-weight:bolder;color:#181d46;font-size:32px;padding:10px 0 15px 0;margin-left:5%;font-family:Barlow}
+#hackathon-header{font-weight:bolder;color:#181d46;font-size:28px;padding:10px 0 10px 0;margin-left:5%;font-family:Barlow}
 .header-2{font-weight:bolder;color:#181d46;font-size:32px;padding:10px 0 40px 0;margin-left:5%;font-family:Barlow;text-align:center}
 .header-4{font-weight:bolder;color:#181d46;font-size:32px;padding:10px 0 40px 0;margin-left:5%;font-family:Barlow;text-align:left}
-#subheader{font-weight:bolder;font-size:28px;padding:10px 0 15px 0;font-family:Barlow;color:#181d46}
+#subheader{font-weight:bolder;font-size:24px;padding:10px 30px 15px 30px;font-family:Barlow;color:#181d46}
 h5#subheader{font-weight:bolder;font-size:22px;padding:10px 0 0px 0;margin-left:5%;font-family:Barlow;color:#181d46; text-align:center;}
 #hackathon-paragraph{font-size:18px;padding:10px 0 15px 0;margin-left:5%;font-weight:400;color:#181d46;font-family:Roboto}
 #hackathon-paragraph-2{font-size:18px;padding:10px 0 15px 0;font-weight:400;color:#181d46;font-family:Roboto}
@@ -121,8 +121,6 @@ a.nav-link{font-size:14px!important}
 .navbar-light .navbar-text a{background-color:#9ce4f3;color:#181d46;border-radius:5px}
 a.nav-link{font-size:24px;color:#fff;padding-top:10px}
 #menu{background-color:#e73f33;position:absolute;top:0;right:0;left:0;min-height:100%;padding-top:80px}
-
-
 /*Ticker Styling*/
 .ticker{font-size:20px;color:#181d46;font-family:Barlow;font-weight:700}
 .ticker-subtitle{font-size:18px;font-weight:400;color:#181d46;font-family:Roboto}
@@ -145,7 +143,9 @@ a.nav-link{font-size:24px;color:#fff;padding-top:10px}
 
 /*Link Styling */
 .blog-link{color:#e73f33;text-decoration:none;margin-top:2%}
-a.blog-link:hover{color:#e73f33}a:hover{text-decoration:none}
+a.blog-link:hover{color:#e73f33}
+a:hover{text-decoration:none}
+#lost {color:#E73F33;}
 
 /*Button Styling*/
 #learn-more-button{color:var(--red);font-weight:bolder;font-size:18px}
@@ -166,6 +166,10 @@ a.blog-link:hover{color:#e73f33}a:hover{text-decoration:none}
 @media only screen and (max-width:600px){
     img{
         display:none
+    }
+
+    #subheader{
+        padding:10px 0px 15px 0px;
     }
     .hide-mobile{
         display:none
