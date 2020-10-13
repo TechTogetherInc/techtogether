@@ -196,6 +196,8 @@ a:hover{text-decoration:none}
 
     .prehacks-ticker-section {padding:20px; text-align: center;}
 
+    #hackathon-paragraph {text-align: left}
+
     #subheader{
         padding:10px 0px 15px 0px;
     }
@@ -214,6 +216,20 @@ a:hover{text-decoration:none}
         text-align:left;
         padding-top:40px
     }
+
+    .study-heading {
+        font-size:22px
+    }
+
+    .study-paragraph{
+        font-size:16px;
+        margin-bottom: 0px;
+    }
+
+    .space {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .about-header-2{
         text-align:left;
         padding-top:40px
@@ -226,13 +242,13 @@ a:hover{text-decoration:none}
     }
     .quote-header{
         color:#fff;
-        font-size:24px;
+        font-size:16px;
         font-weight:600;
         margin-top:8%;
         padding:0 20px 0 0
     }
     .quote-person{
-        font-size:24px
+        font-size:16px
     }
     .color-background{
         min-height:auto
@@ -244,6 +260,7 @@ a:hover{text-decoration:none}
         display:none!important}
     }
 }
+
 
 
 
