@@ -35,9 +35,7 @@ section{padding-top:7%;padding-bottom:7%}
 /*Text Styling*/
 .purple{color:#808cfb}
 .center{text-align:center}
-.align-items-center {display: flex; align-items: center;  /*Aligns vertically center */justify-content: center; /*Aligns horizontally center */
-}
-
+.align-items-center {display: flex; align-items: center;  /*Aligns vertically center */justify-content: center; /*Aligns horizontally center */}
 
 /*List Styling*/
 li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18px;color:#181d46}
