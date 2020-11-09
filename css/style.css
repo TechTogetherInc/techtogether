@@ -130,6 +130,7 @@ a.nav-link{font-size:14px!important}
 .navbar-light .navbar-text a{background-color:#9ce4f3;color:#181d46;border-radius:5px}
 a.nav-link{font-size:24px;color:#fff;padding-top:10px}
 #menu{background-color:#e73f33;position:absolute;top:0;right:0;left:0;min-height:100%;padding-top:80px}
+
 /*Ticker Styling*/
 .ticker{font-size:20px;color:#181d46;font-family:Barlow;font-weight:700}
 .ticker-subtitle{font-size:18px;font-weight:400;color:#181d46;font-family:Roboto}
@@ -137,14 +138,14 @@ a.nav-link{font-size:24px;color:#fff;padding-top:10px}
 .ticker-link:hover{color:#333f9b}
 .ticker-section{padding-top:2%;padding-bottom:2%}
 .prehacks-ticker-section{padding-top:2%;padding-bottom:2%}
+a.green{color:#bff13c}
+a.green:hover{color:#81A50F}
+
 
 /*Image Styling*/
 
-.headshot {
-    width:100px;
-    border-radius: 50%;
-    margin-bottom:10px;
-}
+.headshot {width:100px; border-radius: 50%; margin-bottom:10px; }
+.prehacks-logo {width:7%;margin-bottom:10px;margin-right:5px}
 
 /*Icon Styling*/
 #social-icon{width:20px;margin-bottom:10px;margin-right:5px}
