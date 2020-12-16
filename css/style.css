@@ -7,7 +7,7 @@ section{padding-top:7%;padding-bottom:7%}
 
 /*Color Backgrounds*/
 .bg-blue{background-color:#51dbf6}.bg-purple{background-color:#808cfb}
-.bg-purple-2{background-color:#98a2fb}
+.bg-purple-2{background-color:#d1d5f9}
 .col-2-img{width:90%;padding-left:50px}
 .col-2-img-lg {width:110%;padding-left:0px;}
 .color-background{width:100%;min-height:70vh;height:auto}
@@ -15,7 +15,6 @@ section{padding-top:7%;padding-bottom:7%}
 .bg-blue {background-color: #51DBF6;}
 .bg-navy {background-color: #181D46;}
 .bg-purple {background-color: #808CFB;}
-.bg-purple-2 {background-color: #98A2FB;}
 .bg-pink {background-color: #FDA094;}
 .bg-white {background-color:#FFFFFF;}
 .bg-text-pink {background-color: rgba(231, 63, 51, 0.3); padding:1% 5% 1% 5%; border: 0px solid; border-radius: 50px;}
@@ -68,7 +67,13 @@ li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18p
 #subheader{font-weight:bolder;font-size:24px;padding:10px 30px 15px 30px;font-family:Barlow;color:#181d46}
 h5#subheader{font-weight:bolder;font-size:22px;padding:10px 0 0px 0;margin-left:5%;font-family:Barlow;color:#181d46; text-align:center;}
 #hackathon-paragraph{font-size:18px;padding:10px 0 15px 0;margin-left:5%;font-weight:400;color:#181d46;font-family:Roboto}
+
+#quote-paragraph{text-align: left; font-size:18px;padding:10px 0 15px 0;font-weight:300;color:#181d46;font-family:Roboto}
+#quote-subheader{text-align: left; font-weight:500;color:#181d46;font-size:18px;padding:0px 0 10px 0; font-family:Barlow}
+#quote-header{text-align: left;font-weight:bolder;font-size:24px;padding:10px 30px 0px 0px; font-family:Barlow;color:#181d46}
+
 #hackathon-paragraph-2{font-size:18px;padding:10px 0 15px 0;font-weight:400;color:#181d46;font-family:Roboto}
+
 .job-heading{font-size:32px;font-weight:bolder;color:#181d46;font-family:Barlow; padding:10px 0px 10px 0px;}
 .job-title{font-size:1.3rem;font-weight:bolder;color:#181d46;font-family:Barlow; padding-top:10px;}
 .job-paragraph{padding-right:12%;font-size:20px; color:#181d46; font-family: Roboto;}
@@ -143,7 +148,6 @@ a.green:hover{color:#81A50F}
 
 
 /*Image Styling*/
-
 .headshot {width:100px; border-radius: 50%; margin-bottom:10px; }
 .prehacks-logo {width:7%;margin-bottom:10px;margin-right:5px}
 
@@ -165,6 +169,13 @@ a:hover{text-decoration:none}
 .btn-link:hover, active, visited {color: #181D46; text-decoration: none}
 .card {margin-bottom: 20px;}
 #accordion {float:center;}
+
+/*History Cards*/
+.card-title, .card-text, .stats-list {text-align: left}
+.stats-list {list-style-type: none; padding: 0px;}
+.card {border-radius:25px}
+.card-img-top {border-top-left-radius:25px; border-top-right-radius:25px;}
+.card-title {font-family: Barlow; font-size: 20px; font-weight:bolder; color: #181D46;}
 
 /*Button Styling*/
 #learn-more-button{color:var(--red);font-weight:bolder;font-size:18px}
