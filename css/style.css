@@ -8,8 +8,6 @@ section{padding-top:7%;padding-bottom:7%}
 /*Color Backgrounds*/
 .bg-blue{background-color:#51dbf6}.bg-purple{background-color:#808cfb}
 .bg-purple-2{background-color:#d1d5f9}
-.col-2-img{width:90%;padding-left:50px}
-.col-2-img-lg {width:110%;padding-left:0px;}
 .color-background{width:100%;min-height:70vh;height:auto}
 .bg-lightgrey {background-color: #EFEFF4;}
 .bg-blue {background-color: #51DBF6;}
@@ -151,6 +149,8 @@ a.green:hover{color:#81A50F}
 .headshot {width:100px; border-radius: 50%; margin-bottom:10px; }
 .prehacks-logo {width:7%;margin-bottom:10px;margin-right:5px}
 .eventpage-logo {width:40%; display: block; margin-left: auto; margin-right: auto;}
+.col-2-img{width:90%;padding-left:50px}
+.col-2-img-lg {width:110%;padding-left:0px;}
 
 /*Icon Styling*/
 #social-icon{width:20px;margin-bottom:10px;margin-right:5px}
