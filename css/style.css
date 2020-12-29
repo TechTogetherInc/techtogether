@@ -149,6 +149,7 @@ a.green:hover{color:#81A50F}
 
 
 /*Image Styling*/
+.awards-headshot {float:left; width:150px; padding: 10px; border-radius: 50%; margin:10px; }
 .headshot {width:100px; border-radius: 50%; margin-bottom:10px; }
 .prehacks-logo {width:7%;margin-bottom:10px;margin-right:5px}
 .eventpage-logo {width:40%; display: block; margin-left: auto; margin-right: auto;}
@@ -195,6 +196,7 @@ a:hover{text-decoration:none}
 .btn-primary:hover,active,visited {background-color:#B23027; border-color: #B23027;}
 .btn-secondary {float:center; background-color: #181d46; padding: 10px 20px 10px 20px; border:none;}
 .btn-secondary:hover {float:center; background-color: #45b8cf; padding: 10px 20px 10px 20px; border:none;}
+
 .btn-secondary-blue {float:center; background-color: #333F9B; color: white; padding: 10px 20px 10px 20px; border:none;}
 .btn-secondary-blue:hover {background-color: #222A68; color: white;}
 
