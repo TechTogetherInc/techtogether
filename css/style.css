@@ -28,7 +28,6 @@ section{padding-top:7%;padding-bottom:7%}
 .background-5{background:url(../imgs/photos/ttb_jump.png) no-repeat center center fixed;background-size:cover;background-color:#808cfb}
 .background-6{background:url(../imgs/photos/prehacks-2020.jpg) no-repeat center center;background-size:cover;background-color:#808cfb; height:600px;}
 
-
 /*Text Styling*/
 .purple{color:#808cfb}
 .center{text-align:center}
@@ -168,7 +167,7 @@ a:hover{text-decoration:none}
 #lost {color:#E73F33;}
 
 /*Awards FAQ*/
-.awards-card-header {background-color: #707AD9; border-radius: 10px;}
+.awards-card-header {background-color: #707AD9; border-radius: 10px; padding: 10px;}
 .awards-btn-link{color: white; font-weight: 500; font-size: 18px;}
 .awards-btn-link:hover, active {color: white; text-decoration: none}
 .card {margin-bottom: 20px;}
