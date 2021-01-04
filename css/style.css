@@ -27,7 +27,7 @@ section{padding-top:7%;padding-bottom:7%}
 .background-5{background:url(../imgs/photos/recruit.png) no-repeat center center fixed;background-size:cover;background-color:#808cfb}
 .background-5{background:url(../imgs/photos/ttb_jump.png) no-repeat center center fixed;background-size:cover;background-color:#808cfb}
 .background-6{background:url(../imgs/photos/prehacks-2020.jpg) no-repeat center center;background-size:cover;background-color:#808cfb; height:600px;}
-
+.bg-test{background:url(../imgs/awards/bg_test_2.png) no-repeat center center;background-size:cover;background-color:#808cfb;}
 /*Text Styling*/
 .purple{color:#808cfb}
 .center{text-align:center}
@@ -45,7 +45,8 @@ li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18p
 .prehacks{margin-left: 10%}
 
 /*Paragraph Styling*/
-#awards-header{font-weight:bolder;color:#181d46;font-size:40px;padding:10px 0 10px 0;font-family:Barlow}
+#awards-header{font-weight:bolder;color:#181d46;font-size:40px;padding:10px 0 10px 0;font-family: 'Abril Fatface', cursive;}
+.awards-title {font-family: 'Abril Fatface', cursive; font-size:60px;}
 #awards-subheader{font-weight:600;color:#181d46;font-size:30px;padding:10px 0 10px 0;font-family:Barlow; text-transform: uppercase;}
 
 #prehacks-header{font-weight:bolder;color:#181d46;font-size:28px;padding:10px 0 10px 0;font-family:Barlow}
