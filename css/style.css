@@ -7,6 +7,7 @@ section{padding-top:7%;padding-bottom:7%}
 
 /*Color Backgrounds*/
 .bg-blue{background-color:#51dbf6}
+.bg-lightpurple {background-color:#E7E9FB}
 .bg-purple{background-color:#808cfb}
 .bg-purple-2{background-color:#d1d5f9}
 .color-background{width:100%;min-height:70vh;height:auto}
@@ -144,6 +145,7 @@ a.nav-link{font-size:24px;color:#fff;padding-top:10px}
 .ticker-link:hover{color:#333f9b}
 .ticker-section{padding-top:2%;padding-bottom:2%}
 .prehacks-ticker-section{padding-top:2%;padding-bottom:2%}
+.awards-ticker-section{padding-top:2%;padding-bottom:2%}
 a.green{color:#bff13c}
 a.green:hover{color:#81A50F}
 
@@ -215,12 +217,17 @@ a:hover{text-decoration:none}
     img{
         display:none
     }
+    .awards {margin:0% 5% 0% 5%; width:auto;
+
+    }
 
     .prehacks{margin-left: 0%; padding: 0px 50px 0px 50px;}
 
     .prehacks-sublead-2 {font-size:1.3rem;}
 
     .prehacks-ticker-section {padding:20px; text-align: center;}
+
+    .awards-ticker-section {text-align: left;}
 
     #hackathon-paragraph {text-align: left}
 
