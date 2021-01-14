@@ -44,6 +44,7 @@ li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18p
 .space{padding-left:50px;padding-right:50px}
 .about-section{height:100%}
 .prehacks{margin-left: 10%}
+.organize-section {padding-top:4%;padding-bottom:2%}
 
 /*Paragraph Styling*/
 #awards-header{font-weight:bolder;color:#181d46;font-size:40px;padding:10px 0 10px 0;font-family: 'Abril Fatface', cursive;}
@@ -83,6 +84,10 @@ h5#subheader{font-weight:bolder;font-size:22px;padding:10px 0 0px 0;margin-left:
 .impact-name{font-size:20px;text-align:center;font-family:Barlow;color:#fff;font-weight:lighter}
 .study-heading {font-size: 32px; font-weight: bolder; color: #181D46; font-family: Barlow;}
 .study-paragraph {padding-right: 12%; font-size: 18px;margin-top: 5%;margin-bottom: 100px;color: #181D46;font-family: Roboto;}
+
+.heading {font-size: 32px; font-weight: bolder; color: #181D46; font-family: Barlow;}
+.paragraph {font-size: 18px;margin-top: 4%;color: #181D46;font-family: Roboto;}
+
 .resource-subheader {border: 2px #EFEFF4 solid;padding: 10px;border-radius: 10px;}
 .resource-subheader:hover {border: 2px #FC7361 solid;padding: 10px;border-radius: 10px;}
 .subheading {font-weight: 300;text-align: center; font-size: 21px; color: white;}
@@ -90,13 +95,6 @@ h5#subheader{font-weight:bolder;font-size:22px;padding:10px 0 0px 0;margin-left:
 .ad-pretitle {color:#E73F33; font-size:18px;}
 .ad-title {color:#181D46; font-size:28px; font-weight: 900; padding:5% 0% 0% 0%;}
 .ad-subtitle {color:#868686; font-size:14px; font-weight: 300; padding-bottom:5%;}
-.number {
-    color: #808CFB;
-    font-weight: bolder;
-    font-size: 40px;
-    font-family: Barlow;
-    text-align: center;
-}
 
 .subheading-navy {
     font-weight: 300;
