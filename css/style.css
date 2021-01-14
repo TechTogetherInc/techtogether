@@ -6,11 +6,12 @@ h1,h2. h3{font-family:Barlow}
 section{padding-top:7%;padding-bottom:7%}
 
 /*Color Backgrounds*/
-.bg-blue{background-color:#51dbf6}.bg-purple{background-color:#808cfb}
+.bg-blue{background-color:#51dbf6}
+.bg-lightpurple {background-color:#E7E9FB}
+.bg-purple{background-color:#808cfb}
 .bg-purple-2{background-color:#d1d5f9}
 .color-background{width:100%;min-height:70vh;height:auto}
 .bg-lightgrey {background-color: #EFEFF4;}
-.bg-blue {background-color: #51DBF6;}
 .bg-navy {background-color: #181D46;}
 .bg-purple {background-color: #808CFB;}
 .bg-pink {background-color: #FDA094;}
@@ -27,8 +28,7 @@ section{padding-top:7%;padding-bottom:7%}
 .background-5{background:url(../imgs/photos/recruit.png) no-repeat center center fixed;background-size:cover;background-color:#808cfb}
 .background-5{background:url(../imgs/photos/ttb_jump.png) no-repeat center center fixed;background-size:cover;background-color:#808cfb}
 .background-6{background:url(../imgs/photos/prehacks-2020.jpg) no-repeat center center;background-size:cover;background-color:#808cfb; height:600px;}
-
-
+.bg-test{background:url(../imgs/awards/bg_test_2.png) no-repeat center center;background-size:cover;background-color:#808cfb;}
 /*Text Styling*/
 .purple{color:#808cfb}
 .center{text-align:center}
@@ -44,8 +44,14 @@ li.partner{text-align:left;list-style-type:none;font-family:Roboto;font-size:18p
 .space{padding-left:50px;padding-right:50px}
 .about-section{height:100%}
 .prehacks-schedule {padding-top: 0px;}
+.prehacks{margin-left: 10%}
+.organize-section {padding-top:4%;padding-bottom:2%}
 
 /*Paragraph Styling*/
+#awards-header{font-weight:bolder;color:#181d46;font-size:40px;padding:10px 0 10px 0;font-family: 'Abril Fatface', cursive;}
+.awards-title {font-family: 'Abril Fatface', cursive; font-size:60px;}
+#awards-subheader{font-weight:600;color:#181d46;font-size:30px;padding:10px 0 10px 0;font-family:Barlow; text-transform: uppercase;}
+
 #prehacks-header{font-weight:bolder;color:#181d46;font-size:28px;padding:10px 0 10px 0;font-family:Barlow}
 #prehacks-subheader{font-weight:bolder;color:#181d46;font-size:24px;padding:10px 0 10px 0;font-family:Barlow}
 #prehacks-paragraph{font-size:18px;padding:10px 0 15px 0;font-weight:400;color:#181d46;font-family:Roboto}
@@ -80,6 +86,10 @@ h5#subheader{font-weight:bolder;font-size:22px;padding:10px 0 0px 0;margin-left:
 .impact-name{font-size:20px;text-align:center;font-family:Barlow;color:#fff;font-weight:lighter}
 .study-heading {font-size: 32px; font-weight: bolder; color: #181D46; font-family: Barlow;}
 .study-paragraph {padding-right: 12%; font-size: 18px;margin-top: 5%;margin-bottom: 100px;color: #181D46;font-family: Roboto;}
+
+.heading {font-size: 32px; font-weight: bolder; color: #181D46; font-family: Barlow;}
+.paragraph {font-size: 18px;margin-top: 2%;color: #181D46;font-family: Roboto;}
+
 .resource-subheader {border: 2px #EFEFF4 solid;padding: 10px;border-radius: 10px;}
 .resource-subheader:hover {border: 2px #FC7361 solid;padding: 10px;border-radius: 10px;}
 .subheading {font-weight: 300;text-align: center; font-size: 21px; color: white;}
@@ -87,13 +97,6 @@ h5#subheader{font-weight:bolder;font-size:22px;padding:10px 0 0px 0;margin-left:
 .ad-pretitle {color:#E73F33; font-size:18px;}
 .ad-title {color:#181D46; font-size:28px; font-weight: 900; padding:5% 0% 0% 0%;}
 .ad-subtitle {color:#868686; font-size:14px; font-weight: 300; padding-bottom:5%;}
-.number {
-    color: #808CFB;
-    font-weight: bolder;
-    font-size: 40px;
-    font-family: Barlow;
-    text-align: center;
-}
 
 .subheading-navy {
     font-weight: 300;
@@ -142,11 +145,13 @@ a.nav-link{font-size:24px;color:#fff;padding-top:10px}
 .ticker-link:hover{color:#333f9b}
 .ticker-section{padding-top:2%;padding-bottom:2%}
 .prehacks-ticker-section{padding-top:2%;padding-bottom:2%}
+.awards-ticker-section{padding-top:2%;padding-bottom:2%}
 a.green{color:#bff13c}
 a.green:hover{color:#81A50F}
 
 
 /*Image Styling*/
+.awards-headshot {float:left; width:150px; padding: 10px; border-radius: 50%; margin:10px; }
 .headshot {width:100px; border-radius: 50%; margin-bottom:10px; }
 .prehacks-logo {width:7%;margin-bottom:10px;margin-right:5px}
 .eventpage-logo {width:40%; display: block; margin-left: auto; margin-right: auto;}
@@ -163,6 +168,13 @@ a.green:hover{color:#81A50F}
 a.blog-link:hover{color:#e73f33}
 a:hover{text-decoration:none}
 #lost {color:#E73F33;}
+
+/*Awards FAQ*/
+.awards-card-header {background-color: #707AD9; border-radius: 10px; padding: 10px;}
+.awards-btn-link{color: white; font-weight: 500; font-size: 18px;}
+.awards-btn-link:hover, active {color: white; text-decoration: none}
+.card {margin-bottom: 20px;}
+#accordion {float:center;}
 
 /*PreHacks FAQ*/
 .card-header { background-color: white; border-bottom: 6px solid transparent; border-image: linear-gradient(to right, #45B8CF , #c1d840); border-image-slice: 1;
@@ -187,6 +199,10 @@ a:hover{text-decoration:none}
 .btn-secondary {float:center; background-color: #181d46; padding: 10px 20px 10px 20px; border:none;}
 .btn-secondary:hover {float:center; background-color: #45b8cf; padding: 10px 20px 10px 20px; border:none;}
 
+.btn-secondary-blue {float:center; background-color: #333F9B; color: white; padding: 10px 20px 10px 20px; border:none;}
+.btn-secondary-blue:hover {background-color: #222A68; color: white;}
+
+
 /*Quote Styling*/
 .quote-header{color:#fff;font-size:28px;font-weight:600;margin-left:20%;margin-right:20%}
 .quote-person{color:#fff;margin-top:3%;font-weight:300}
@@ -201,12 +217,17 @@ a:hover{text-decoration:none}
     img{
         display:none
     }
+    .awards {margin:0% 5% 0% 5%; width:auto;
+
+    }
 
     .prehacks{margin-left: 0%; padding: 0px 50px 0px 50px;}
 
     .prehacks-sublead-2 {font-size:1.3rem;}
 
     .prehacks-ticker-section {padding:20px; text-align: left;}
+
+    .awards-ticker-section {text-align: left;}
 
     #hackathon-paragraph {text-align: left}
 
