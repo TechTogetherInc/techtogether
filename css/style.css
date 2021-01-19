@@ -153,7 +153,7 @@ a.green:hover{color:#81A50F}
 /*Image Styling*/
 .awards-headshot {float:left; width:150px; padding: 10px; border-radius: 50%; margin:10px; }
 .headshot {width:100px; border-radius: 50%; margin-bottom:10px; }
-.prehacks-logo {width:7%;margin-bottom:10px;margin-right:5px}
+.prehacks-logo {width:10%; float:right; padding-right: 15px;}
 .eventpage-logo {width:40%; display: block; margin-left: auto; margin-right: auto;}
 .col-2-img{width:90%;padding-left:50px}
 .col-2-img-lg {width:110%;padding-left:0px;}
@@ -164,6 +164,8 @@ a.green:hover{color:#81A50F}
 #newsletter-icon{width:50px;display:block;margin-left:auto;margin-right:auto;}
 
 /*Link Styling */
+.prehacks-link {color:#181D46;margin-top:2%}
+.prehacks-link:hover {color:#333F9B;margin-top:2%}
 .blog-link{color:#e73f33;text-decoration:none;margin-top:2%}
 a.blog-link:hover{color:#e73f33}
 a:hover{text-decoration:none}
@@ -197,7 +199,7 @@ a:hover{text-decoration:none}
 .btn-primary {background-color:#E73F33; border-color: #E73F33;}
 .btn-primary:hover,active,visited {background-color:#B23027; border-color: #B23027;}
 .btn-secondary {float:center; background-color: #181d46; padding: 10px 20px 10px 20px; border:none;}
-.btn-secondary:hover {float:center; background-color: #45b8cf; padding: 10px 20px 10px 20px; border:none;}
+.btn-secondary:hover {float:center; background-color: #333F9B; padding: 10px 20px 10px 20px; border:none;}
 
 .btn-secondary-blue {float:center; background-color: #333F9B; color: white; padding: 10px 20px 10px 20px; border:none;}
 .btn-secondary-blue:hover {background-color: #222A68; color: white;}
