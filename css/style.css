@@ -176,16 +176,8 @@ a.blog-link:hover{color:#e73f33}
 a:hover{text-decoration:none}
 #lost {color:#E73F33;}
 
-/*Awards FAQ*/
-.awards-card-header {background-color: #707AD9; border-radius: 10px; padding: 10px;}
-.awards-btn-link{color: white; font-weight: 500; font-size: 18px;}
-.awards-btn-link:hover, active {color: white; text-decoration: none}
-.card {margin-bottom: 20px;}
-#accordion {float:center;}
-
-/*PreHacks FAQ*/
-.card-header { background-color: white; border-bottom: 6px solid transparent; border-image: linear-gradient(to right, #45B8CF , #c1d840); border-image-slice: 1;
-}
+/*FAQ*/
+.card-header { background-color: #EFEFF4; border: 1px solid;}
 .btn-link{color: #181D46; font-weight: 500;}
 .btn-link:hover, active, visited {color: #181D46; text-decoration: none}
 .card {margin-bottom: 20px;}

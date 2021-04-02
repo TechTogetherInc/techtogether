@@ -1,3 +1,9 @@
+.card-header { background-color: white; border-bottom: 6px solid transparent; border-image: linear-gradient(to right, #45B8CF , #c1d840); border-image-slice: 1;
+}
+.btn-link{color: #181D46; font-weight: 500;}
+.btn-link:hover, active, visited {color: #181D46; text-decoration: none}
+.card {margin-bottom: 20px;}
+#accordion {float:center;}
 
 .schedule-warp{
     padding-right:20px;
