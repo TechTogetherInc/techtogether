@@ -1,3 +1,11 @@
+.prehacks-logo-2 {width:40%; padding-bottom: 20px;}
+.prehacks-logo {width:10%; float:right; padding-right: 15px;}
+.prehacks-sponsor-text {color:#fff;font-weight:300}
+.bg-prehacks {background: rgb(191,241,60); background: linear-gradient(90deg, rgba(69,184,207,1) 0%, rgba(191,241,60,1) 150%);}
+.bg-prehacks-blue {background-color: #45B8CF;}
+.bg-prehacks-navy {background-color: #181D46;}
+.vertical-center {align-self:center;}
+.sponsor-link {color:#45B8CF; font-weight: 500}
 .card-header { background-color: white; border-bottom: 6px solid transparent; border-image: linear-gradient(to right, #45B8CF , #c1d840); border-image-slice: 1;
 }
 .btn-link{color: #181D46; font-weight: 500;}
