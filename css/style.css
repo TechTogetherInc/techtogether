@@ -406,6 +406,15 @@ h5#subheader {
   color: #181d46;
   font-family: Barlow;
 }
+
+.events-heading {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #181d46;
+  font-family: Barlow;
+  text-align: center;
+  padding: 5% 2%;
+}
 .study-paragraph {
   padding-right: 12%;
   font-size: 18px;
@@ -886,7 +895,7 @@ a.chapter-btn {
 }
 
 a.chapter-btn:hover {
-  background-color: #626262;
+  background-color: #181D46;
   color: white;
 }
 
@@ -926,8 +935,8 @@ a.chapter-btn:hover {
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  background-color: white;
-  border: 1px solid #181D46;
+  background-color: transparent;
+  border: 1px solid transparent;
   border-radius: 50%;
   width: 125px;
   height: 125px;
