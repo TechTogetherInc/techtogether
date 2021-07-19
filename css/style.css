@@ -900,14 +900,25 @@ a.chapter-btn:hover {
 }
 
 .tt-logo-frame {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   margin-left: auto;
   margin-right: auto;
-  align-self: flex-end;
-  background-color: white;
-  border: 8px solid white;
+  align-self: center;
+  background-color: black;
   border-bottom-width: 0px;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 100%);
+}
+
+.tt-logo-frame-2 {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  background-color: black;
+  border-bottom-width: 0px;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 100%);
 }
 @media only screen and (max-width: 1200px) {
   .mob-1 {
