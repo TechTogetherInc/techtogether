@@ -886,8 +886,8 @@ visited {
 }
 
 a.chapter-btn {
-  background-color: white;
-  color: #181d46;
+  background-color: #222A68;
+  color: white;
   border: 1px solid #181d46;
   border-radius: 5px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
