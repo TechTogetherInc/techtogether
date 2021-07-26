@@ -1,4 +1,4 @@
-_site/
-Gemfile.lock
-.jekyll-cache/
-.vscode
+node_modules/
+.cache/
+.DS_Store
+public
