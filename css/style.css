@@ -885,6 +885,20 @@ visited {
   display: flex;
 }
 
+a.chapter-btn-2 {
+  background-color: #B23027;
+  color: white;
+  border: 1px solid #B23027;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+  padding: 10px 20px;
+}
+
+a.chapter-btn-2:hover {
+  background-color: #FF5B4F;
+  color: white;
+}
+
 a.chapter-btn {
   background-color: #222A68;
   color: white;
