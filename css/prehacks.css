@@ -1,4 +1,4 @@
-.prehacks-logo-2 {width:40%; padding-bottom: 20px;}
+.prehacks-logo-2 {width:40%; padding-bottom: 20px; padding-top:20px;}
 .prehacks-logo {width:10%; float:right; padding-right: 15px;}
 .prehacks-sponsor-text {color:#fff;font-weight:300}
 .bg-prehacks {background: rgb(191,241,60); background: linear-gradient(90deg, rgba(69,184,207,1) 0%, rgba(191,241,60,1) 150%);}
@@ -14,7 +14,7 @@
 .card {margin-bottom: 20px;}
 #accordion {float:center;}
 .text-navy {color:#181d46;}
-#prehacks-header-white{font-weight:1000;color:white;font-size:32px;padding:10px 0 50px 0;font-family:Barlow; text-align: center;}
+#prehacks-header-white{font-weight:1000;color:white;font-size:32px;padding:10px 0 20px 0;font-family:Barlow; text-align: center;}
 #prehacks-header{font-weight:1000;color:#181d46;font-size:32px;padding:10px 0 10px 0;font-family:Barlow; text-align: center;}
 #prehacks-title{font-weight:1000;color:#181d46;font-size:38px;padding:10px 0 10px 0;font-family:Barlow; text-align: center;}
 #prehacks-subheader{font-weight:bolder;color:#181d46;font-size:24px;padding:10px 0 10px 0;font-family:Barlow}
