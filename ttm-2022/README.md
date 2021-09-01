@@ -15,3 +15,13 @@ Afterwards, use **npm**, the Node.js package manager, to install Eleventy. In a 
 
 `npm install -g @11ty/eleventy`
 
+Lastly, make sure to install the dependencies for this project:
+
+`npm install`
+
+## Developing
+
+To build this site, run Eleventy using the `npm run build` command (which just calls Eleventy to build the site). The output will be sent to the /ttm-2022/_site directory. **Do not add this directory to the Git repository.**
+
+To host the site locally and see your changes in real-time, build and start a server using `npm run serve`.
+
