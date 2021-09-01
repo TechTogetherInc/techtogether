@@ -1,7 +1,7 @@
 module.exports = function(eleventyConfig) {
     return {
       dir: {
-        // ⚠️ These values are both relative to your input directory.
+        // This allows us to use includes and layouts from the parent TTM site.
         includes: "../_includes",
         layouts: "../_layouts"
       }
