@@ -1,0 +1,43 @@
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper {
+  background-color: transparent !important;
+}
+
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4, #mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4{
+  color: white !important;
+  font-size: 25px !important;
+  text-align: left !important;
+  font-weight: 700 !important;
+  font-family: Barlow !important;
+}
+
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p, #mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+  color: white !important;
+  font-size: 18px !important;
+  text-align: left !important;
+  font-weight: 400 !important;
+  font-family: Roboto,Helvetica-Light, sans-serif !important;
+}
+
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+  max-width: 600px !important;
+  padding-top:2% !important;
+}
+
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+  background-color: #E73F33 !important;
+  color: white !important;
+}
+
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{
+  background-color: #E73F33 !important;
+}
+
+#mlb2-2691401.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+  align-content: left !important;
+  max-width:30% !important;
+}
+
+#mlb2-2691401.ml-form-embedContainer .ml-form-align-center {
+  text-align:left !important;
+  padding-left: 2%;
+}
