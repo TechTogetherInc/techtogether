@@ -15,6 +15,10 @@ Afterwards, use **npm**, the Node.js package manager, to install Eleventy. In a 
 
 `npm install -g @11ty/eleventy`
 
+Make sure to navigate to the chapter-specific folder for TechTogether Miami's site:
+
+`cd ttm-2022`
+
 Lastly, make sure to install the dependencies for this project:
 
 `npm install`
