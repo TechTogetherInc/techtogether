@@ -88,8 +88,10 @@ section {
 }
 
 /*Image Backgrounds*/
-.background-ttm {
-  width: 100%;
+.background-1 {
+  background: url(../imgs/above-the-fold-bg.svg);
+  background-size: cover;
+  background-color: #222a68;
 }
 .background-2 {
   background: url(../imgs/photos/explore_vr.png) no-repeat center center fixed;
@@ -517,9 +519,6 @@ h5#subheader {
 }
 
 /*Navigation Styling*/
-a.nav-link {
-  font-size: 18px !important;
-}
 .dropdown-item:hover {
   background-color: #9ce4f3;
 }
@@ -588,6 +587,12 @@ a.green:hover {
   padding: 10px;
   border-radius: 50%;
   margin: 10px;
+}
+.ttm-logo {
+  width: 100%;
+}
+.ttm-date-time-location {
+  width: 100%;
 }
 .headshot {
   width: 100px;
