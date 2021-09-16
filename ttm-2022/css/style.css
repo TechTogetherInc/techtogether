@@ -88,7 +88,7 @@ section {
 }
 
 /*Image Backgrounds*/
-.background-1 {
+.background-above-the-fold {
   background: url(../imgs/above-the-fold-bg.svg);
   background-size: cover;
   background-color: #222a68;
@@ -141,7 +141,11 @@ section {
   align-items: center; /*Aligns vertically center */
   justify-content: center; /*Aligns horizontally center */
 }
-
+.footer-background {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
 /*List Styling*/
 li.partner {
   text-align: center;
@@ -594,6 +598,9 @@ a.green:hover {
 .ttm-date-time-location {
   width: 100%;
 }
+.drive-in-footer {
+  width: 100%;
+}
 .headshot {
   width: 100px;
   border-radius: 50%;
@@ -623,12 +630,18 @@ a.green:hover {
   margin-bottom: 5%;
   align-content: center;
 }
-
+.made-with-confetti {
+  color: #FFFFFF;
+}
+.social-container {
+  background-color: #26316E;
+  display: flex;
+  flex-direction: column;
+}
 /*Icon Styling*/
-#social-icon {
-  width: 20px;
-  margin-bottom: 10px;
-  margin-right: 5px;
+.social-icon {
+  height: 30px;
+  margin-right: 10px;
 }
 #icon {
   width: 50px;
