@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80.970551mm"
+   height="32.868671mm"
+   viewBox="0 0 80.970551 32.868671"
+   version="1.1"
+   id="svg1050"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="ttm-date-time-location.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1052"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4823793"
+     inkscape:cx="106.24811"
+     inkscape:cy="95.454649"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="121"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1047">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter8788"
+       x="-0.0062324277"
+       y="-0.016600575"
+       width="1.0513398"
+       height="1.1367476">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood8778" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite8780" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.2"
+         result="blur"
+         id="feGaussianBlur8782" />
+      <feOffset
+         dx="2.99401"
+         dy="2.99401"
+         result="offset"
+         id="feOffset8784" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite8786" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-72.31761,-114.21711)">
+    <g
+       id="g1871"
+       transform="translate(12.20176,37.234361)"
+       style="filter:url(#filter8788)">
+      <rect
+         style="fill:#333f9b;fill-opacity:1;stroke:none;stroke-width:2.11117;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+         id="rect14218"
+         width="65.861183"
+         height="16.350681"
+         x="128.27808"
+         y="95.894547"
+         transform="matrix(1,0,-0.58946909,0.80779093,0,0)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="78.176689"
+         y="87.636421"
+         id="text16839"><tspan
+           sodipodi:role="line"
+           id="tspan16837"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Barlow;-inkscape-font-specification:'Barlow Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+           x="78.176689"
+           y="87.636421">MIAMI, FL</tspan></text>
+      <rect
+         style="fill:#333f9b;fill-opacity:1;stroke:none;stroke-width:2.11117;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+         id="rect14218-5"
+         width="65.861183"
+         height="16.350681"
+         x="138.22261"
+         y="115.3386"
+         transform="matrix(1,0,-0.58946909,0.80779093,0,0)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.698624"
+         y="102.45073"
+         id="text16839-3"><tspan
+           sodipodi:role="line"
+           id="tspan16837-7"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Barlow;-inkscape-font-specification:'Barlow Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+           x="69.698624"
+           y="102.45073">2.11.22 - 2.13.22</tspan></text>
+    </g>
+  </g>
+</svg>
