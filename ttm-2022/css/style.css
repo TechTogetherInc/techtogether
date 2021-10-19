@@ -266,9 +266,19 @@ li.partner {
   font-weight: 700;
   padding-bottom: 50px;
   text-align: left;
-  color: #181d46;
+  color: #ffffff;
+  stroke: #98A2FB;
+  stroke-width: 3 cm;
   font-family: Barlow;
   font-size: 32px;
+}
+.subject-paragraph {
+  text-align: left;
+  font-size: 18px;
+  padding: 10px 0 15px 0;
+  font-weight: 300;
+  color: #ffffff;
+  font-family: Roboto;
 }
 .about-header-3 {
   font-weight: 700;
