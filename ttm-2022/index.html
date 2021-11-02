@@ -15,148 +15,35 @@ title: TechTogether
 </div>
 
 <div class="bg-miami-gradient">
-    <section class ="hide-mobile">
+    <section class="py-5 hide-mobile">
         <div class="container">
             <div class="row">
                 <div class="col-sm-5">
-                <h3 class="about-header">ABOUT US</h3>
+                <h3 class="header">ABOUT US</h3>
                 <h6 class="subject-paragraph">TechTogether Miami is dedicated to empowering underrepresented communities in the STEM field by showcasing the talents of these indiviudals, creating a diverse and all-inspiring community.</h6>
                 <hr>
                 <h6 class="subject-paragraph">TechTogether gives all members, from beginner to expert, oppurtunties to network amongst peers and employers, gain valuable skills, and take part in bridging the gender-gap in the STEM community.</h6>  
                 </div>
-            <img style="margin-left:20%" src="imgs/image_1.png" width="276" height="276">
+                <img style="margin-left:20%" src="imgs/image_1.png" width="276" height="276">
             </div>
         </div>
     </section> 
 
-
-    <section>
+    <!-- Sponsor Page -->
+    <section class="pb-5">
+        <h3 class="header">OUR SPONSORS</h3> 
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-6 video hide-mobile">
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8XeKABwrokY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
-                </div>
-                <div class="col-sm-6 col-md-6"> 
-                    <h3 id="hackathon-header"> On average, 50% of TechTogether hackathon participants have never attended a hackathon before. </h3>
-                    <h6 id="hackathon-paragraph">TechTogether is on a mission to create safe spaces for gender-marginalized youth to build, learn, and hack on projects. Our aim is to increase the gender-diversity and inclusivity of the hackathon community. 
-                    </h6>
-
-                    <a href="/donate.html">
-                        <h3 style = "margin-left: 6%;" id="learn-more-button">Donate &rarr;</h3>
+                <!-- To add more sponsors, just add their name and website URL to sponsors.json 
+                    and add an .svg logo with the same name in imgs/sponsors/ -->
+                {% for sponsor in sponsors %}
+                    <a class="sponsor-boxes" href="{{ sponsor[1] }}">
+                        <img class="sponsor-img" src="imgs/sponsors/{{ sponsor[0] }}.svg">
                     </a>
-
-                    <a href="/events.html">
-                        <h3 style = "margin-left: 6%;" id="learn-more-button">Attend a Hackathon &rarr;</h3>
-                    </a>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sponsor Page -->
-    <section>
-        <div class="bg-miami hide-mobile">
-                <div class="col-sm-5">
-                   <h3 class="about-header"; style="position: relative; margin-left: 650px;"> Sponsors</h3> 
-                   <h6 class="subject-paragraph" style="position: relative; margin-left: 100px;">Sponsor Title</h6>
-                   <h6 class="subject-paragraph" style="position: relative; margin-left: 100px;">Image</h6>
-                   <h6 class="subject-paragraph" style="position: relative; margin-left: 100px;">Description</h6>
-                </div>
-            </div>
-    </section>
-
-    <!-- Quotes section -->
-    <section>
-        <div class ="container">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    
-                    <div class="carousel-item active">
-
-                        <h1 class="quote-header text-center">"I had such a great experience and I would love to attend more hackathons from TechTogether in the future! Participating in the hackathon definitely widened my interest for computer science and creating projects involving technology!"
-                        </h1>
-
-                        <h4 class="quote-person text-center">
-                        HobbyHacks Attendee
-                        </h4>
-
-                    </div>
-
-                    <div class="carousel-item">
-                    
-                        <h1 class="quote-header text-center">"I am so happy and proud to be able to call this my first hackathon!!! I learned so much and gained so much inspiration from every single person there. This is definitely an experience I will never forget."
-                        </h1>
-
-                        <h4 class="quote-person text-center">
-                        HobbyHacks Attendee
-                        </h4>
-                    </div>
-
-                    <div class="carousel-item">
-
-                        <h1 class="quote-header text-center">"TechTogether Boston helped me throw out the intimidaton and I realize that nothing is impossible to learn, with the ambition and effort anyone can achieve what they want."
-                        </h1>
-
-                        <h4 class="quote-person text-center">
-                        Former Attendee &amp; Organizer
-                        </h4>
-
-                    </div>
-
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-
-            </div>
-        </div>
-    </section>
-
-
-    <section class ="hide-mobile">
-        <div class ="container">
-            <div class="row space">
-                <div class="center col-6 col-md-4">
-                    <img id ="icon" src="imgs/icons/calendar_icon_purple.png">
-                    <h4 id="subheader">Attend a hackathon in your city</h4>
-                    <h6 id="hackathon-paragraph">You don't need to be a computer science major or professional to give one of our hackathons a try.
-                    </h6>
-                    <a href="/events.html">
-                        <h3 style = "margin-left: 6%;" id="learn-more-button">Attend a Hackathon &rarr;</h3>
-                    </a>
-                </div>
-                <div class="center col-6 col-md-4 hide-mobile">
-                    <img id ="icon" src="imgs/icons/team_icon_purple.png">
-                    <h4 id="subheader">Join our team of fabulous humans</h4>
-                    <h6 id="hackathon-paragraph">Team up with us to propel our community forward.
-                    </h6>
-                    <a href="/volunteer.html">
-                        <h3 style = "margin-left: 6%;" id="learn-more-button">Join Us &rarr;</h3>
-                    </a>
-                </div>
-                <div class="center col-6 col-md-4 hide-mobile">
-                    <img id ="icon" src="imgs/icons/blog_icon_purple.png">
-                    <h4 id="subheader">Check out our latest blog post</h4>
-                    <h6 id="hackathon-paragraph"><a class ="blog-link" target="_blank" href="https://medium.com/techtogether/4-hackathon-project-ideas-for-beginners-b9606b84bd73">4 Hackathon Project Ideas for Beginners</a>
-                    </h6>
-                    <a target="_blank" href="https://medium.com/techtogether/4-hackathon-project-ideas-for-beginners-b9606b84bd73">
-                        <h3 style = "margin-left: 6%;" id="learn-more-button">Read &rarr;</h3>
-                    </a>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </section>
 
     <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-    {% include stayintouch.html %}
 </div>
