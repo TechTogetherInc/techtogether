@@ -20,6 +20,44 @@ h3 {
   font-family: Barlow
 }
 
+h1 {
+  font-weight: 700;
+  padding-bottom: 50px;
+  letter-spacing: -4px;
+  text-align: left;
+  color: #fff;
+  font-family: Barlow;
+  font-size: 64px;
+  -webkit-text-stroke: 3px #98a2fb;
+  width: 100%;
+  text-align: center
+}
+
+h2 {
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  font-family: Barlow;
+  font-size: 32px;
+  width: 100%;
+  text-align: center
+}
+
+p {
+  text-align: left;
+  font-size: 18px;
+  padding: 10px 0 15px 0;
+  font-weight: 300;
+  color: #fff;
+  font-family: Roboto
+}
+
+.byte-img {
+  max-width: 100%;
+  height: 65%;
+  
+}
+
 .bg-miami {
   background-color: #222a68
 }
@@ -34,16 +72,6 @@ h3 {
   background-color: #222a68
 }
 
-.center {
-  text-align: center
-}
-
-.align-items-center {
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
 .footer-background {
   width: 100%;
   position: absolute;
@@ -56,64 +84,6 @@ li.partner {
   font-family: Roboto;
   font-size: 18px;
   color: #181d46
-}
-
-.about-section {
-  height: 100%
-}
-
-.organize-section {
-  padding-top: 5%;
-  padding-bottom: 5%
-}
-
-.header {
-  font-weight: 700;
-  padding-bottom: 50px;
-  text-align: left;
-  color: #fff;
-  font-family: Barlow;
-  font-size: 64px;
-  -webkit-text-stroke: 3px #98a2fb;
-  width: 100%;
-  text-align: center
-}
-
-.subject-paragraph {
-  text-align: left;
-  font-size: 18px;
-  padding: 10px 0 15px 0;
-  font-weight: 300;
-  color: #fff;
-  font-family: Roboto
-}
-
-.about-header-3 {
-  font-weight: 700;
-  padding-bottom: 50px;
-  text-align: center
-}
-
-.hack-header-3 {
-  font-weight: 500;
-  padding-bottom: 50px;
-  text-align: center;
-  font-size: 24px
-}
-
-.about-header-2 {
-  font-weight: 700;
-  padding-bottom: 30px;
-  text-align: left
-}
-
-#hackathon-header {
-  font-weight: bolder;
-  color: #181d46;
-  font-size: 28px;
-  padding: 10px 0 10px 0;
-  margin-left: 5%;
-  font-family: Barlow
 }
 
 .header-2 {
@@ -268,30 +238,8 @@ a.nav-link {
   margin-right: 5px
 }
 
-#newsletter-icon {
-  width: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
-
-.prehacks-link {
-  color: #181d46;
-  margin-top: 2%
-}
-
-.prehacks-link:hover {
-  color: #333f9b;
-  margin-top: 2%
-}
-
 a:hover {
   text-decoration: none
-}
-
-.card-header {
-  background-color: #efeff4;
-  border: 1px solid
 }
 
 active {
@@ -359,30 +307,6 @@ active {
 
   .hide-mobile {
     display: none
-  }
-
-  .newsletter-header {
-    padding: none
-  }
-
-  .about-header {
-    text-align: left;
-    padding-top: 40px;
-    padding-bottom: 20px
-  }
-
-  .about-header-3 {
-    text-align: left;
-    padding-top: 40px
-  }
-
-  .about-header-2 {
-    text-align: left;
-    padding-top: 40px
-  }
-
-  .about-section {
-    padding: 0 50px 0 50px
   }
 
   .color-background {
