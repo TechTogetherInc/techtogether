@@ -17,30 +17,33 @@ html {
 h1,
 h2,
 h3 {
-  font-family: Barlow
+  font-family: Barlow;
+  color: #fff;
+  margin: 0 !important;
 }
 
 h1 {
   font-weight: 700;
   padding-bottom: 50px;
   letter-spacing: -4px;
-  text-align: left;
-  color: #fff;
-  font-family: Barlow;
+  text-align: center;
   font-size: 64px;
   -webkit-text-stroke: 3px #98a2fb;
   width: 100%;
-  text-align: center
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  width: 100%;
 }
 
 h2 {
   font-weight: bold;
   text-align: left;
-  color: #fff;
-  font-family: Barlow;
   font-size: 32px;
   width: 100%;
-  text-align: center
 }
 
 p {
@@ -55,7 +58,6 @@ p {
 .byte-img {
   max-width: 100%;
   height: 65%;
-  
 }
 
 .bg-miami {
@@ -84,26 +86,6 @@ li.partner {
   font-family: Roboto;
   font-size: 18px;
   color: #181d46
-}
-
-.header-2 {
-  font-weight: bolder;
-  color: #181d46;
-  font-size: 32px;
-  padding: 10px 0 40px 0;
-  margin-left: 5%;
-  font-family: Barlow;
-  text-align: center
-}
-
-.header-4 {
-  font-weight: bolder;
-  color: #181d46;
-  font-size: 32px;
-  padding: 10px 0 40px 0;
-  margin-left: 5%;
-  font-family: Barlow;
-  text-align: left
 }
 
 #hackathon-paragraph {
@@ -180,12 +162,8 @@ a.nav-link {
 .sponsor-boxes {
   transition: opacity .1s;
   background: #222a68;
-  flex-grow: 1;
-  flex-basis: 0;
   margin: 6px;
   padding: 20px;
-  height: auto;
-  width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,8 +174,8 @@ a.nav-link {
 }
 
 .sponsor-img {
-  height: 80%;
-  max-width: 95%
+  height: 50px;
+  max-width: 100px;
 }
 
 .col-2-img {
@@ -262,6 +240,16 @@ active {
 .card-img-top {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.faq-item {
+  border-radius: 34px !important;
+  background-color: #131738 !important;
+  box-shadow: 2px 2px rgba(0, 0, 0, .2);
 }
 
 .card-title {
