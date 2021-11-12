@@ -17,30 +17,32 @@ html {
 h1,
 h2,
 h3 {
-  font-family: Barlow
+  font-family: Barlow;
+  color: #fff;
 }
 
 h1 {
   font-weight: 700;
   padding-bottom: 50px;
   letter-spacing: -4px;
-  text-align: left;
-  color: #fff;
-  font-family: Barlow;
+  text-align: center;
   font-size: 64px;
   -webkit-text-stroke: 3px #98a2fb;
   width: 100%;
-  text-align: center
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  width: 100%;
 }
 
 h2 {
   font-weight: bold;
   text-align: left;
-  color: #fff;
-  font-family: Barlow;
   font-size: 32px;
   width: 100%;
-  text-align: center
 }
 
 p {
@@ -180,12 +182,8 @@ a.nav-link {
 .sponsor-boxes {
   transition: opacity .1s;
   background: #222a68;
-  flex-grow: 1;
-  flex-basis: 0;
   margin: 6px;
   padding: 20px;
-  height: auto;
-  width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,8 +194,8 @@ a.nav-link {
 }
 
 .sponsor-img {
-  height: 80%;
-  max-width: 95%
+  height: 50px;
+  max-width: 100px;
 }
 
 .col-2-img {
@@ -262,6 +260,11 @@ active {
 .card-img-top {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px
+}
+
+.faq-item {
+  border-radius: 34px;
+  background: #131738;
 }
 
 .card-title {
