@@ -31,62 +31,40 @@ title: TechTogether
         </div>
     </section> 
 
+    <!-- Learn New Skills Section -->
     <section class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col hide-mobile">
-                    <div class="row" style="padding-right: 15%">
-                        <div class="col">
-                            <h2>Design</h2>
-                            <img class="byte-img" src="imgs/bytes/design.svg">
-                        </div>
-                        <div class="col">
-                            <h2>VR</h2>
-                            <img class="byte-img" src="imgs/bytes/virtualreality.svg">
-                        </div>
-                    </div>
-                    <div class="row" style="padding-left: 15%">
-                        <div class="col">
-                            <h2>Game Dev</h2>
-                            <img class="byte-img" src="imgs/bytes/gamedev.svg">
-                        </div>
-                        <div class="col">
-                            <h2>Web Dev</h2>
-                            <img class="byte-img" src="imgs/bytes/webdev.svg">
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <h1>LEARN NEW SKILLS</h1>
-                    <p>TechTogether Miami is dedicated to empowering underrepresented communities in the STEM field by showcasing the talents of these indiviudals, creating a diverse and all-inspiring community.</p>
-                    <hr>
-                    <p>TechTogether gives all members, from beginner to expert, oppurtunties to network amongst peers and employers, gain valuable skills, and take part in bridging the gender-gap in the STEM community.</p>  
-                </div>
-            </div>
-        </div>
+        {% include newskills.html %}
     </section> 
 
     <!-- Sponsor Page -->
     <section class="pb-5">
         <h1>OUR SPONSORS</h1> 
+        {% include sponsors.html %}
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="pb-5">
+        <h1>SCHEDULE</h1> 
         <div class="container">
-            <div class="row">
-                <!-- 
-                    To add more sponsors, just add their name and website URL to sponsors.json ,
-                    and add an .svg logo with the same name in imgs/sponsors/ .
-                    `sponsor` is a JSON property. Therefore, sponsor[0] is the property's key (the sponsor name)
-                    and sponsor[1] is the property's value (the sponsor's URL)
-                -->
-                {% for sponsor in sponsors %}
-                <div class="sponsor-boxes col">
-                    <a href="{{ sponsor[1] }}">
-                        <img class="sponsor-img" src="imgs/sponsors/{{ sponsor[0] }}.svg">
-                    </a>
-                </div>
-                {% endfor %}
-            </div>
+            {% include schedule.html %}
         </div>
     </section>
+
+    <!-- Get Involved Section-->
+    <section class="pb-5">
+        <h1>GET INVOLVED</h1> 
+        <div class="container">
+            {% include getinvolved.html %}
+        </div>
+    </section>
+
+        <!-- Challenges Section-->
+        <section class="pb-5">
+            <h1>CHALLENGES</h1> 
+            <div class="container">
+                {% include challenges.html %}
+            </div>
+        </section>
 
     <!-- FAQs -->
     <section class="pb-5">
@@ -95,8 +73,6 @@ title: TechTogether
             {% include faq.html %}
         </div>
     </section>
-
-
 
     <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </div>

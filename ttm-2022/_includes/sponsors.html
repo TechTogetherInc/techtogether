@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <!-- 
+            To add more sponsors, just add their name and website URL to sponsors.json ,
+            and add an .svg logo with the same name in imgs/sponsors/ .
+            `sponsor` is a JSON property. Therefore, sponsor[0] is the property's key (the sponsor name)
+            and sponsor[1] is the property's value (the sponsor's URL)
+        -->
+    {% for sponsor in sponsors %}
+    <div class="sponsor-boxes col">
+      <a href="{{ sponsor[1] }}" target="_blank">
+        <img class="sponsor-img" src="imgs/sponsors/{{ sponsor[0] }}.svg" />
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>

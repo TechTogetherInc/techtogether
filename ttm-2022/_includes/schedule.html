@@ -1,0 +1,52 @@
+<div class="tab">
+  <!-- Mark the first tab autoselected -->
+  {% assign tabCount = 0 %}
+  {% for day in events %}
+  <button class="tablinks m-1" onclick="openDay(event, '{{day[0]}}')" {% if tabCount == 0 %}id="defaultOpen"{% endif %}>{{day[0]}}</button>
+  {% assign tabCount = tabCount | plus: 1 %}
+  {% endfor %}
+
+</div>
+{% for day in events %}
+<div id="{{day[0]}}" class="tabcontent m-1">
+  <table>
+    {% for event in day[1] %}
+    <tr>
+      <th class="startTime">
+        {{event['startTime']}}<br />-{{event['endTime']}}
+      </th>
+      {% if event['track'] == '' %}
+      <th class="eventName">{{event['name']}}</th>
+      {% else %}
+      <th class="eventName {{event['trackcss']}}">{{event['name']}}</th>
+
+      {% endif %}
+    </tr>
+    <tr class="bottomborder">
+      <td></td>
+      <td>
+        Hosted by {{event['host']}}<br />
+        {{event['description']}}
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endfor %}
+
+<script>
+  function openDay(evt, weekDay) {
+    let i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(weekDay).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  document.getElementById("defaultOpen").click();
+</script>
