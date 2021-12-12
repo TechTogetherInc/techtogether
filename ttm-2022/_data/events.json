@@ -1,24 +1,4 @@
 {
-  "Thursday": [
-    {
-      "name": "Event 1",
-      "host": "Host 1",
-      "startTime": "2pm",
-      "endTime": "2:30pm",
-      "description": "This is an event description",
-      "track": "",
-      "trackcss": ""
-    },
-    {
-      "name": "Event 2",
-      "host": "Host 2",
-      "startTime": "2:30pm",
-      "endTime": "3:30pm",
-      "description": "This is an event description",
-      "track": "",
-      "trackcss": ""
-    }
-  ],
   "Friday": [
     {
       "name": "Beginners Guide to Hackathons",

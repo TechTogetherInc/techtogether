@@ -219,11 +219,6 @@ a:hover {
   text-decoration: none;
 }
 
-active {
-  color: #181d46;
-  text-decoration: none;
-}
-
 .card {
   margin-bottom: 20px;
 }
@@ -374,11 +369,13 @@ active {
 /* Create an active/current tablink class */
 .tab button.active {
   background-color: #131738;
+  border-radius: 4px;
 }
 
 /* Style the tab content */
 .tabcontent {
   padding: 3px 6px;
+  border-radius: 4px;
   background-color: #131738;
   border-top: none;
 }

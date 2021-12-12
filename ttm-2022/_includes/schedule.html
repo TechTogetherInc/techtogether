@@ -1,20 +1,14 @@
 <div class="tab">
-  <button
-    class="tablinks"
-    onclick="openDay(event, 'Thursday')"
-    id="defaultOpen"
-  >
-    Thursday
-  </button>
-  <button class="tablinks" onclick="openDay(event, 'Friday')">Friday</button>
-  <button class="tablinks" onclick="openDay(event, 'Saturday')">
-    Saturday
-  </button>
-  <button class="tablinks" onclick="openDay(event, 'Sunday')">Sunday</button>
-</div>
+  <!-- Mark the first tab autoselected -->
+  {% assign tabCount = 0 %}
+  {% for day in events %}
+  <button class="tablinks m-1" onclick="openDay(event, '{{day[0]}}')" {% if tabCount == 0 %}id="defaultOpen"{% endif %}>{{day[0]}}</button>
+  {% assign tabCount = tabCount | plus: 1 %}
+  {% endfor %}
 
+</div>
 {% for day in events %}
-<div id="{{day[0]}}" class="tabcontent">
+<div id="{{day[0]}}" class="tabcontent m-1">
   <table>
     {% for event in day[1] %}
     <tr>
