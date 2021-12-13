@@ -1,14 +1,16 @@
 <div class="tab">
   <!-- Mark the first tab autoselected -->
-  {% assign tabCount = 0 %}
-  {% for day in events %}
-  <button class="tablinks m-1" onclick="openDay(event, '{{day[0]}}')" {% if tabCount == 0 %}id="defaultOpen"{% endif %}>{{day[0]}}</button>
-  {% assign tabCount = tabCount | plus: 1 %}
-  {% endfor %}
+  <div class="btn-group m-1" role="group" aria-label="Schedule date selector">
+    {% assign tabCount = 0 %}
+    {% for day in events %}
+    <button type="button" class="tablinks btn btn-outline-dark" onclick="openDay(event, '{{day[0]}}')" {% if tabCount == 0 %}id="defaultOpen"{% endif %}>{{day[0]}}</button>
+    {% assign tabCount = tabCount | plus: 1 %}
+    {% endfor %}
+  </div>
 
 </div>
 {% for day in events %}
-<div id="{{day[0]}}" class="tabcontent m-1">
+<div id="{{day[0]}}" class="tabcontent ms-1">
   <table>
     {% for event in day[1] %}
     <tr>

@@ -126,8 +126,8 @@ li.partner {
 }
 
 a.nav-link {
-  font-size: 24px;
-  color: #fff;
+  font-size: 20px;
+  color: #fff !important;
   padding-top: 10px;
 }
 
@@ -141,7 +141,7 @@ a.nav-link {
   padding-top: 80px;
 }
 
-.ttm-logo {
+.ttm-promo {
   width: 100%;
 }
 
@@ -427,6 +427,45 @@ td {
 
 .getinvolved-col {
   flex: 5 10 20%;
+}
+
+.btn-ttmiami-cyan {
+  background-color: #51dbf6;
+  border-color: #51dbf6;
+  color: #000;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.btn-ttmiami-red {
+  background-color: #e73f33;
+  border-color: #e73f33;
+  color: #000;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.btn-ttmiami-yellow {
+  background-color: #fff622;
+  border-color: #fff622;
+  color: #000;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 100%;
+}
+
+#register-button button {
+  border-radius: 3rem;
+  border-color: #333f9b;
+  background-color: #51dbf6;
+  border-width: 5px;
+  font-weight: bold;
+  font-family: Barlow; 
+  box-shadow: 20px 20px 3px rgba(0, 0, 0, 0.4);
+  font-size: 3rem !important;
+  width: 100%;
 }
 
 .getinvolved {
