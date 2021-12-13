@@ -1,9 +1,18 @@
 {
-    "How much does it cost to attend?": "It's free! Placeholder answer here.",
-    "What exactly <em>is</em> a hackathon, anyways?": "It's a really cool thing that we'll elaborate more on later.",
-    "Where is TechTogether Miami being held?": "Virtually! Read the website!",
-    "Do I need experience to participate?": "Nope! TechTogether welcomes people of all skill levels!",
-    "Is TechTogether Miami open to men?": "No, for reasons which will be elaborated on later once this placeholder is done.",
-    "I don't have a team. Can I still hack?": "We highly encourage everyone to find a team. <more later>",
-    "What's with the cool site background?": "Our theme is retro!"
+    "What is TechTogether Miami?": "TechTogether Miami is a gender-focused hackathon, where individuals work together to build a technology-based solution to a problem in 36 hours with the support of our mentors and network. Attendees can also join for our other events offered, such as the career fair, workshops, and panels.",
+    "Where is TechTogether Miami being held?": "TechTogether Miami is a fully virtual hackathon and will be held on Discord.",
+    "When will I get my Discord invite?": "Make sure you register on Eventbrite and you will get a Discord invite the week of the event!",
+    "How much does it cost to attend?": "The only thing we ask for is your time for a weekend full of learning and networking!",
+    "Who can join the hackathon?": "All people of marginalized genders are welcome! This includes cisgender women, transgender men, transgender women, non-binary people, and people of all other genders that have been historically left on the sidelines in tech are welcome to join our hackathon as hackers.<br><br>Don't meet that criteria, but still want to support our mission? There are other ways to get involved, such as mentoring, judging, hosting a workshop or sponsoring. Visit the <a href=\"/#Get_Involved\">Get Involved</a> section to learn more!",
+    "Is there an age restriction?": "Everyone age 14 or older is allowed to join. This includes high school, college, and bootcamp students, as well as industry professionals.",
+    "What exactly <em>is</em> a hackathon, anyway?": "Hackathons are 24-to-36-hour-long events where coders and non-coders alike get together to create innovative group pojects, listen in to workshops, and network with their peers.",
+    "Do I need experience to participate?": "No, our hackathon is open to folks from all experience levels. Our team, mentors, and workshop hosts will make sure you have all the resources you'll need to be successful during TechTogether Miami.",
+    "I don't have a team. Can I still hack?": "Yes! There will be team building exercises to create teams for members who do not have teams before the hacking kicks off. In the case that you still cannot find a team, you're still eligible to participate.",
+    "How do teams work?": "You can hack on teams of two to four people. Don't worry if you can't find a team before the event, you'll have plenty of opportunities to find one virtually!",
+    "How do I join a session?": "Make sure to join our Discord as we will share all meeting links there!",
+    "How do I ask a mentor for help?": "Mentoring will all be done through Discord. To request a mentor, fill out the form on the Discord channel and then hop onto our mentorship Zoom hangout to connect with your assigned mentor.",
+    "What happens if I miss a workshop?": "Workshop recordings will be available via a Google Drive folder and shared with participants following the completion of the event. So don't worry if you happen to miss one of this weekend's workshops, because we've got you covered!",
+    "Where do I submit my project?": "Your project will be submitted through Devpost. Your submission must include a video (no longer than 2 minutes) that showcases your project, a basic description of your project, and the challenge(s) for which you want your project to be considered.",
+    "What is the project deadline?": "Make sure to check the event schedule and the annoucement channel on Discord to stay up to date on important hackathon deadlines and everything you need to know about what's going on throughout the weekend!",
+    "What if I have access needs?": "TechTogether Miami was built with inclusion in mind, and although we have aimed to create that environment in advance, we understand that a wide range of access needs exists and lack of support may prevent you from fully engaging in the event. Please allow us to help you the best we can by contacting us in advance through this link <TODO: PUT ACCESSIBILITY EMAIL LINK HERE>."
 }
