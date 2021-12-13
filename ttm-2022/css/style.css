@@ -349,6 +349,11 @@ active {
   background-color: #f1f1f1; */
 }
 
+.btn {
+  border-radius: 30px;
+  width: 100%;
+}
+
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
@@ -427,6 +432,27 @@ td {
 
 .getinvolved-col {
   flex: 5 10 20%;
+}
+
+.btn-ttmiami-cyan {
+  background-color: #51dbf6;
+  border-color: #51dbf6;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn-ttmiami-red {
+  background-color: #e73f33;
+  border-color: #e73f33;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn-ttmiami-yellow {
+  background-color: #fff622;
+  border-color: #fff622;
+  color: #000;
+  font-weight: bold;
 }
 
 .getinvolved {
