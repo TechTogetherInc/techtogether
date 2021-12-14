@@ -463,8 +463,8 @@ td {
   border-width: 5px;
   font-weight: bold;
   font-family: Barlow; 
-  box-shadow: 20px 20px 3px rgba(0, 0, 0, 0.4);
-  font-size: 3rem !important;
+  box-shadow: 2vh 2vh 3px rgba(0, 0, 0, 0.4);
+  font-size: 4vh !important;
   width: 100%;
 }
 
