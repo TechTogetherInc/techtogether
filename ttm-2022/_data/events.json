@@ -1,6 +1,15 @@
 {
   "Friday": [
     {
+      "name": "Opening Ceremony",
+      "host": "TT Miami Team",
+      "startTime": "4:00pm",
+      "endTime": "5:00pm",
+      "description": "Join us to kick off the beginning of hacking for TechTogether Miami!",
+      "track": "",
+      "trackcss": ""
+    },
+    {
       "name": "Beginners Guide to Hackathons",
       "host": "Rachel Quijano",
       "startTime": "5:00pm",
@@ -325,6 +334,24 @@
       "startTime": "11:30am",
       "endTime": "12:30am",
       "description": "",
+      "track": "",
+      "trackcss": ""
+    },
+    {
+      "name": "Project Submissions Due on Devpost",
+      "host": "TT Miami Team",
+      "startTime": "1:00pm",
+      "endTime": "",
+      "description": "Two days of hacking have led up to this moment! Please make sure to have your projects submitted before this deadline.",
+      "track": "",
+      "trackcss": ""
+    },
+    {
+      "name": "Closing Ceremony",
+      "host": "TT Miami Team",
+      "startTime": "4:00pm",
+      "endTime": "5:00pm",
+      "description": "Celebrate your accomplishments and join us for the last gathering of the hackathon!",
       "track": "",
       "trackcss": ""
     }
