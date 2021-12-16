@@ -60,7 +60,7 @@
       "startTime": "8:30pm",
       "endTime": "9:00pm",
       "description": "Equip hackers with the knowledge they need to start building their web dev projects.",
-      "track": "Web Dev",
+      "track": "Web Development",
       "trackcss": "webdev"
     },
     {
@@ -69,7 +69,7 @@
       "startTime": "8:30pm",
       "endTime": "9:00pm",
       "description": "Equip hackers with the knowledge they need to start building their apps.",
-      "track": "App Dev",
+      "track": "App Development",
       "trackcss": "appdev"
     },
     {
@@ -78,7 +78,7 @@
       "startTime": "8:30pm",
       "endTime": "9:00pm",
       "description": "Equip hackers with the knowledge they need to start building their game dev projects.",
-      "track": "Game Dev",
+      "track": "Game Development",
       "trackcss": "gamedev"
     },
     {
@@ -87,7 +87,7 @@
       "startTime": "10:00pm",
       "endTime": "10:30pm",
       "description": "Equip hackers with the knowledge they need to create a website using tools such as HTML and CSS.",
-      "track": "Web Dev",
+      "track": "Web Development",
       "trackcss": "webdev"
     },
     {
@@ -96,7 +96,7 @@
       "startTime": "10:00pm",
       "endTime": "11:00pm",
       "description": "Equip hackers with the knowledge they need to start building their apps.",
-      "track": "App Dev",
+      "track": "App Development",
       "trackcss": "appdev"
     },
     {
@@ -105,7 +105,7 @@
       "startTime": "10:00pm",
       "endTime": "11:00pm",
       "description": "Equip hackers with the knowledge they need to start building their apps.",
-      "track": "App Dev",
+      "track": "App Development",
       "trackcss": "appdev"
     },
     {
@@ -114,7 +114,7 @@
       "startTime": "10:00pm",
       "endTime": "11:00pm",
       "description": "Equip hackers with the knowledge they need to start building their apps.",
-      "track": "Game Dev",
+      "track": "Game Development",
       "trackcss": "gamedev"
     },
     {
@@ -123,7 +123,7 @@
       "startTime": "10:30pm",
       "endTime": "11:00pm",
       "description": "Equip hackers with the knowledge they need to start building their hackathon project.",
-      "track": "Web Dev",
+      "track": "Web Development",
       "trackcss": "webdev"
     },
     {
@@ -132,7 +132,7 @@
       "startTime": "11:00pm",
       "endTime": "11:30pm",
       "description": "Equip hackers with the knowledge they need to start building their apps.",
-      "track": "App Dev",
+      "track": "App Development",
       "trackcss": "appdev"
     },
     {
@@ -141,7 +141,7 @@
       "startTime": "11:00pm",
       "endTime": "11:30pm",
       "description": "Equip hackers with the knowledge they need to start building their hackathon project.",
-      "track": "Game Dev",
+      "track": "Game Development",
       "trackcss": "gamedev"
     },
     {
@@ -150,7 +150,7 @@
       "startTime": "11:00pm",
       "endTime": "12:00am",
       "description": "Equip hackers with the knowledge they need to start building their hackathon project.",
-      "track": "Web Dev",
+      "track": "Web Development",
       "trackcss": "webdev"
     },
     {
@@ -159,7 +159,7 @@
       "startTime": "11:30pm",
       "endTime": "12:00am",
       "description": "Equip hackers with the knowledge they need to start building their hackathon project.",
-      "track": "Game Dev",
+      "track": "Game Development",
       "trackcss": "gamedev"
     }
   ],
@@ -197,7 +197,7 @@
       "startTime": "8:00am",
       "endTime": "8:30am",
       "description": "Equip hackers with the opportunity to learn how to implement APIs into their future projects.",
-      "track": "Web Dev",
+      "track": "Web Development",
       "trackcss": "webdev"
     },
     {
@@ -206,7 +206,7 @@
       "startTime": "8:30am",
       "endTime": "9:00am",
       "description": "Equip hackers with more in detail knowledge about cloud storage and the options available to them.",
-      "track": "Web Dev",
+      "track": "Web Development",
       "trackcss": "webdev"
     },
     {
@@ -251,7 +251,7 @@
       "startTime": "4:00pm",
       "endTime": "4:30pm",
       "description": "Equip hackers with the opportunity to learn about databases using SQL.",
-      "track": "Web Dev",
+      "track": "Web Development",
       "trackcss": "webdev"
     },
     {

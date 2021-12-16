@@ -10,9 +10,9 @@
   {% assign newRow = true %}
   {% for question in FAQ %} 
     {% if newRow == true %}
-        <div class="row">
+        <div class="row justify-content-center">
     {% endif %} 
-    <div class="col-lg">
+    <div class="col-lg-5">
         <div class="accordion-item faq-item m-1">
             <h2 id="heading{{rowCount}}">
                 <button class="accordion-button faq-item"
@@ -21,7 +21,7 @@
                     data-bs-target="#collapse{{rowCount}}"
                     aria-expanded="true"
                     aria-controls="collapse{{rowCount}}">
-                    <h3>{{ question[0] }}</h3>
+                    <h3 class="faq-question">{{ question[0] }}</h3>
                 </button>
             </h2>
             <div id="collapse{{rowCount}}" 
