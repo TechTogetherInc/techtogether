@@ -20,7 +20,7 @@
       {% if event['track'] == '' %}
       <th class="eventName">{{event['name']}}</th>
       {% else %}
-      <th class="eventName {{event['trackcss']}}">{{event['name']}}</th>
+      <th class="eventName {{event['trackcss']}}">{{event['name']}}<br><em>{{event['track']}} Track</em></th>
 
       {% endif %}
     </tr>
