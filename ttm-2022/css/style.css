@@ -247,6 +247,10 @@ a:hover {
   box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
 
+.faq-question {
+  font-size: 20px;
+}
+
 .card-title {
   font-family: Barlow;
   font-size: 20px;
