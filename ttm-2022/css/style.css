@@ -20,6 +20,7 @@ h3 {
   font-family: Barlow;
   color: #fff;
   margin: 0 !important;
+  scroll-margin-top: 5rem;
 }
 
 h1 {
@@ -374,6 +375,10 @@ active {
 .tab button.active {
   background-color: #131738;
   border-radius: 4px;
+}
+
+.tablinks {
+  font-size: 25px;
 }
 
 /* Style the tab content */
