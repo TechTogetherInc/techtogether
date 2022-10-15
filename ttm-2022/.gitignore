@@ -1,0 +1,4 @@
+# Node.js modules folder
+node_modules/
+# Site build output
+_site/

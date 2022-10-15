@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    {% for challenge in challenges %}
+    <div class="card col">
+      <div class="container">
+        <h2 class="text-center">{{challenge[0]}}</h2>
+        <p class="text-center">{{challenge[1]}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,45 @@
+<div class="accordion" id="accordionFAQ">
+  <!-- 
+        To add more sponsors, just add their name and website URL to sponsors.json ,
+        and add an .svg logo with the same name in imgs/sponsors/ .
+        `sponsor` is a JSON property. Therefore, sponsor[0] is the property's key (the sponsor name)
+        and sponsor[1] is the property's value (the sponsor's URL)
+    -->  
+  {% assign rowCount = 0 %}
+  <!-- Make rows for every two questions -->
+  {% assign newRow = true %}
+  {% for question in FAQ %} 
+    {% if newRow == true %}
+        <div class="row justify-content-center">
+    {% endif %} 
+    <div class="col-lg-5">
+        <div class="accordion-item faq-item m-1">
+            <h2 id="heading{{rowCount}}">
+                <button class="accordion-button faq-item"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse{{rowCount}}"
+                    aria-expanded="true"
+                    aria-controls="collapse{{rowCount}}">
+                    <h3 class="faq-question">{{ question[0] }}</h3>
+                </button>
+            </h2>
+            <div id="collapse{{rowCount}}" 
+                class="accordion-collapse collapse" 
+                aria-labelledby="heading{{rowCount}}" 
+                data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    <p>{{ question[1] }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if newRow == false %}
+        </div>
+        {% assign newRow = true %}
+    {% else %}
+        {% assign newRow = false  %}
+    {% endif %}
+    {% assign rowCount = rowCount | plus: 1 %}
+  {% endfor %}
+</div>
